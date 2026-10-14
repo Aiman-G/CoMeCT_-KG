@@ -27,6 +27,17 @@ def type_search(application, query):
     return application
 
 
+def select_points(application, chart, points):
+    states = application._tree.get_widget_states()
+    selection = next((widget for widget in states.widgets if widget.id == chart.proto.id), None)
+    if selection is None:
+        selection = states.widgets.add()
+        selection.id = chart.proto.id
+    selection.string_value = json.dumps({"selection": {"points": points, "point_indices": [], "box": [], "lasso": []}})
+    application._run(states)
+    assert_healthy(application)
+
+
 def test_initial_dashboard():
     application = app()
     assert_healthy(application)
@@ -128,15 +139,44 @@ def test_chart_selection_updates_global_filters():
     application = app()
     # Send a frontend selection event through Streamlit's widget protocol.
     chart = application.get("plotly_chart")[0]
-    states = application._tree.get_widget_states()
-    selection = states.widgets.add()
-    selection.id = chart.proto.id
-    selection.string_value = json.dumps({"selection": {"points": [{"customdata": [2026]}],
-                                                        "point_indices": [0], "box": [], "lasso": []}})
-    application._run(states)
-    assert_healthy(application)
+    select_points(application, chart, [{"customdata": {"0": 2026}, "x": 2026}])
     assert application.metric[0].value == "3"
     assert application.multiselect(key="filter_year").value == [2026]
+    select_points(application, application.get("plotly_chart")[0], [{"customdata": ["invalid"]}])
+    assert application.multiselect(key="filter_year").value == [2026]
+    select_points(application, application.get("plotly_chart")[0], [])
+    assert application.metric[0].value == "10"
+    assert application.multiselect(key="filter_year").value == []
+
+
+def test_category_chart_events_update_the_matching_filters():
+    application = app()
+    application.multiselect(key="cfg_panels").set_value(["Geographical reach", "Research funders"]).run()
+    cases = [(0, "countries", "Netherlands"), (1, "funders", "Aster Research Council")]
+    for index, field, value in cases:
+        chart = application.get("plotly_chart")[index]
+        select_points(application, chart, [{"customdata": {"0": value}}])
+        assert application.multiselect(key=f"filter_{field}").value == [value]
+        assert int(application.metric[0].value) > 0
+        next(button for button in application.button if button.label == "Reset filters").click().run()
+        assert_healthy(application)
+        assert application.metric[0].value == "10"
+
+
+def test_donut_panels_use_sidebar_filters_instead_of_unsupported_selections():
+    application = app()
+    captions = [element.value for element in application.caption]
+    assert "Use Recruitment status in the sidebar to filter" in captions
+    assert "Self-reported sharing · Filter under More filters in the sidebar" in captions
+    assert not application.get("plotly_chart")[2].proto.selection_mode
+    assert not application.get("plotly_chart")[3].proto.selection_mode
+    application.multiselect(key="filter_status").set_value(["Completed - trial ended as planned"]).run()
+    assert_healthy(application)
+    assert application.metric[0].value == "1"
+    next(button for button in application.button if button.label == "Reset filters").click().run()
+    application.multiselect(key="filter_sharing").set_value(["Yes - planned"]).run()
+    assert_healthy(application)
+    assert application.metric[0].value != "10"
 
 
 def test_map_reset_clears_selection_and_keeps_other_filters():

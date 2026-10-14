@@ -11,6 +11,7 @@ import pandas as pd
 import streamlit as st
 
 from charts import annual_figure, bar_figure, donut_figure, enrolment_figure, map_figure, network_figure, timeline_figure
+from chart_selection import selection_filter_values
 from dashboard_config import (GROUPS, METRICS, PANELS, decode_view, default_config,
                               validate_config)
 from graph_data import EX, FILTER_FIELDS, GraphData, filter_studies, load_graph, options, search_suggestions
@@ -203,15 +204,9 @@ def queue_config(value, frame, fingerprint):
 
 def select_chart(chart_key, field):
     state = st.session_state.get(chart_key, {})
-    points = state.get("selection", {}).get("points", [])
-    values = []
-    for point in points:
-        custom = point.get("customdata", [])
-        if custom:
-            value = int(custom[0]) if field == "year" else str(custom[0])
-            if value not in values:
-                values.append(value)
-    st.session_state[f"filter_{field}"] = values
+    values = selection_filter_values(state, field, options(studies, field))
+    if values is not None:
+        st.session_state[f"filter_{field}"] = values
 
 
 with st.sidebar:
@@ -358,12 +353,12 @@ def render_panel(panel):
                        else "Select a country to filter · Studies can cover several countries")
         elif panel == "Recruitment status":
             st.caption("Reported recruitment status across studies")
-            chart(donut_figure(filtered, "status"), "status_chart", "status")
-            st.caption("Select a segment to filter")
+            chart(donut_figure(filtered, "status"), "status_chart")
+            st.caption("Use Recruitment status in the sidebar to filter")
         elif panel == "Data sharing":
             st.caption("Reported intention to share individual participant data")
-            chart(donut_figure(filtered, "sharing"), "sharing_chart", "sharing")
-            st.caption("Self-reported sharing · Select a segment to filter")
+            chart(donut_figure(filtered, "sharing"), "sharing_chart")
+            st.caption("Self-reported sharing · Filter under More filters in the sidebar")
         elif panel == "Research funders":
             st.caption("Funders connected to the studies")
             chart(bar_figure(filtered, "funders", metric), "funder_chart", "funders")
