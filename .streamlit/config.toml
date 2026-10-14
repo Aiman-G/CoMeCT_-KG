@@ -1,0 +1,27 @@
+[theme]
+base = "light"
+primaryColor = "#096D78"
+backgroundColor = "#F4F7FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#193448"
+font = "sans serif"
+baseRadius = "0.75rem"
+buttonRadius = "0.6rem"
+borderColor = "#E0E8EE"
+showWidgetBorder = true
+dataframeHeaderBackgroundColor = "#EDF3F7"
+
+[theme.sidebar]
+primaryColor = "#167D86"
+backgroundColor = "#142E42"
+secondaryBackgroundColor = "#203E52"
+textColor = "#E8F0F5"
+borderColor = "#3A586A"
+showWidgetBorder = true
+
+[server]
+maxUploadSize = 20
+headless = true
+
+[browser]
+gatherUsageStats = false

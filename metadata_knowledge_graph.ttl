@@ -1,0 +1,1158 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ex: <https://example.org/comect-demo/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/comect-demo/bacterium/klebsiella-pneumoniae> a skos:Concept ;
+    skos:prefLabel "Klebsiella pneumoniae" .
+
+<https://example.org/comect-demo/bacterium/vibrio-cholerae> a skos:Concept ;
+    skos:prefLabel "Vibrio cholerae" .
+
+<https://example.org/comect-demo/catalogue/fairsharing-org> a skos:Concept ;
+    skos:prefLabel "FAIRsharing.org" .
+
+<https://example.org/comect-demo/catalogue/healthdata-eu-ehds-metadata-catalogue> a skos:Concept ;
+    skos:prefLabel "HealthData@EU (EHDS Metadata Catalogue)" .
+
+<https://example.org/comect-demo/catalogue/vivli> a skos:Concept ;
+    skos:prefLabel "Vivli" .
+
+<https://example.org/comect-demo/dmp/SYN-0001> a ex:MachineActionableDataManagementPlan ;
+    dct:creator <https://example.org/comect-demo/researcher/SYN-0001> ;
+    dct:date "2026-10-10"^^xsd:date ;
+    dct:identifier "https://dmp.example/SYN-0001" ;
+    dct:language "eng" ;
+    ex:describesStudy <https://example.org/comect-demo/study/SYN-0001> ;
+    ex:synthetic true ;
+    ex:usesFormDefinition <https://example.org/comect-demo/form/field-inventory> .
+
+<https://example.org/comect-demo/dmp/SYN-0002> a ex:MachineActionableDataManagementPlan ;
+    dct:creator <https://example.org/comect-demo/researcher/SYN-0002> ;
+    dct:date "2026-10-10"^^xsd:date ;
+    dct:identifier "https://dmp.example/SYN-0002" ;
+    dct:language "eng" ;
+    ex:describesStudy <https://example.org/comect-demo/study/SYN-0002> ;
+    ex:synthetic true ;
+    ex:usesFormDefinition <https://example.org/comect-demo/form/field-inventory> .
+
+<https://example.org/comect-demo/dmp/SYN-0003> a ex:MachineActionableDataManagementPlan ;
+    dct:creator <https://example.org/comect-demo/researcher/SYN-0003> ;
+    dct:date "2026-10-10"^^xsd:date ;
+    dct:identifier "https://dmp.example/SYN-0003" ;
+    dct:language "eng" ;
+    ex:describesStudy <https://example.org/comect-demo/study/SYN-0003> ;
+    ex:synthetic true ;
+    ex:usesFormDefinition <https://example.org/comect-demo/form/field-inventory> .
+
+<https://example.org/comect-demo/dmp/SYN-0004> a ex:MachineActionableDataManagementPlan ;
+    dct:creator <https://example.org/comect-demo/researcher/SYN-0004> ;
+    dct:date "2026-10-10"^^xsd:date ;
+    dct:identifier "https://dmp.example/SYN-0004" ;
+    dct:language "eng" ;
+    ex:describesStudy <https://example.org/comect-demo/study/SYN-0004> ;
+    ex:synthetic true ;
+    ex:usesFormDefinition <https://example.org/comect-demo/form/field-inventory> .
+
+<https://example.org/comect-demo/dmp/SYN-0005> a ex:MachineActionableDataManagementPlan ;
+    dct:creator <https://example.org/comect-demo/researcher/SYN-0005> ;
+    dct:date "2026-10-10"^^xsd:date ;
+    dct:identifier "https://dmp.example/SYN-0005" ;
+    dct:language "eng" ;
+    ex:describesStudy <https://example.org/comect-demo/study/SYN-0005> ;
+    ex:synthetic true ;
+    ex:usesFormDefinition <https://example.org/comect-demo/form/field-inventory> .
+
+<https://example.org/comect-demo/dmp/SYN-0006> a ex:MachineActionableDataManagementPlan ;
+    dct:creator <https://example.org/comect-demo/researcher/SYN-0006> ;
+    dct:date "2026-10-10"^^xsd:date ;
+    dct:identifier "https://dmp.example/SYN-0006" ;
+    dct:language "eng" ;
+    ex:describesStudy <https://example.org/comect-demo/study/SYN-0006> ;
+    ex:synthetic true ;
+    ex:usesFormDefinition <https://example.org/comect-demo/form/field-inventory> .
+
+<https://example.org/comect-demo/dmp/SYN-0007> a ex:MachineActionableDataManagementPlan ;
+    dct:creator <https://example.org/comect-demo/researcher/SYN-0007> ;
+    dct:date "2026-10-10"^^xsd:date ;
+    dct:identifier "https://dmp.example/SYN-0007" ;
+    dct:language "eng" ;
+    ex:describesStudy <https://example.org/comect-demo/study/SYN-0007> ;
+    ex:synthetic true ;
+    ex:usesFormDefinition <https://example.org/comect-demo/form/field-inventory> .
+
+<https://example.org/comect-demo/dmp/SYN-0008> a ex:MachineActionableDataManagementPlan ;
+    dct:creator <https://example.org/comect-demo/researcher/SYN-0008> ;
+    dct:date "2026-10-10"^^xsd:date ;
+    dct:identifier "https://dmp.example/SYN-0008" ;
+    dct:language "eng" ;
+    ex:describesStudy <https://example.org/comect-demo/study/SYN-0008> ;
+    ex:synthetic true ;
+    ex:usesFormDefinition <https://example.org/comect-demo/form/field-inventory> .
+
+<https://example.org/comect-demo/dmp/SYN-0009> a ex:MachineActionableDataManagementPlan ;
+    dct:creator <https://example.org/comect-demo/researcher/SYN-0009> ;
+    dct:date "2026-10-10"^^xsd:date ;
+    dct:identifier "https://dmp.example/SYN-0009" ;
+    dct:language "eng" ;
+    ex:describesStudy <https://example.org/comect-demo/study/SYN-0009> ;
+    ex:synthetic true ;
+    ex:usesFormDefinition <https://example.org/comect-demo/form/field-inventory> .
+
+<https://example.org/comect-demo/dmp/SYN-0010> a ex:MachineActionableDataManagementPlan ;
+    dct:creator <https://example.org/comect-demo/researcher/SYN-0010> ;
+    dct:date "2026-10-10"^^xsd:date ;
+    dct:identifier "https://dmp.example/SYN-0010" ;
+    dct:language "eng" ;
+    ex:describesStudy <https://example.org/comect-demo/study/SYN-0010> ;
+    ex:synthetic true ;
+    ex:usesFormDefinition <https://example.org/comect-demo/form/field-inventory> .
+
+<https://example.org/comect-demo/focus/health-systems-research> a skos:Concept ;
+    skos:prefLabel "Health Systems Research" .
+
+<https://example.org/comect-demo/focus/therapeutics-research-development-and-implementation> a skos:Concept ;
+    skos:prefLabel "Therapeutics research, development and implementation" .
+
+<https://example.org/comect-demo/focus/vaccines-research-development-and-implementation> a skos:Concept ;
+    skos:prefLabel "Vaccines research, development and implementation" .
+
+<https://example.org/comect-demo/grant/syn-0001-grant-1> a ex:Grant ;
+    dct:identifier "SYN-0001-GRANT-1" ;
+    ex:awardedBy <https://example.org/comect-demo/funder/aster-research-council> .
+
+<https://example.org/comect-demo/grant/syn-0002-grant-1> a ex:Grant ;
+    dct:identifier "SYN-0002-GRANT-1" ;
+    ex:awardedBy <https://example.org/comect-demo/funder/boreal-science-trust> .
+
+<https://example.org/comect-demo/grant/syn-0002-grant-2> a ex:Grant ;
+    dct:identifier "SYN-0002-GRANT-2" ;
+    ex:awardedBy <https://example.org/comect-demo/funder/aster-research-council> .
+
+<https://example.org/comect-demo/grant/syn-0003-grant-1> a ex:Grant ;
+    dct:identifier "SYN-0003-GRANT-1" ;
+    ex:awardedBy <https://example.org/comect-demo/funder/aster-research-council> .
+
+<https://example.org/comect-demo/grant/syn-0004-grant-1> a ex:Grant ;
+    dct:identifier "SYN-0004-GRANT-1" ;
+    ex:awardedBy <https://example.org/comect-demo/funder/coastal-health-innovation-fund> .
+
+<https://example.org/comect-demo/grant/syn-0005-grant-1> a ex:Grant ;
+    dct:identifier "SYN-0005-GRANT-1" ;
+    ex:awardedBy <https://example.org/comect-demo/funder/equator-health-foundation> .
+
+<https://example.org/comect-demo/grant/syn-0006-grant-1> a ex:Grant ;
+    dct:identifier "SYN-0006-GRANT-1" ;
+    ex:awardedBy <https://example.org/comect-demo/funder/boreal-science-trust> .
+
+<https://example.org/comect-demo/grant/syn-0007-grant-1> a ex:Grant ;
+    dct:identifier "SYN-0007-GRANT-1" ;
+    ex:awardedBy <https://example.org/comect-demo/funder/coastal-health-innovation-fund> .
+
+<https://example.org/comect-demo/grant/syn-0008-grant-1> a ex:Grant ;
+    dct:identifier "SYN-0008-GRANT-1" ;
+    ex:awardedBy <https://example.org/comect-demo/funder/community-epidemic-preparedness-fund> .
+
+<https://example.org/comect-demo/grant/syn-0009-grant-1> a ex:Grant ;
+    dct:identifier "SYN-0009-GRANT-1" ;
+    ex:awardedBy <https://example.org/comect-demo/funder/aster-research-council> .
+
+<https://example.org/comect-demo/grant/syn-0010-grant-1> a ex:Grant ;
+    dct:identifier "SYN-0010-GRANT-1" ;
+    ex:awardedBy <https://example.org/comect-demo/funder/community-epidemic-preparedness-fund> .
+
+<https://example.org/comect-demo/organisation/alpine-translational-recovery-centre> a foaf:Organization ;
+    foaf:name "Alpine Translational Recovery Centre" ;
+    ex:locationDescription "Germany" .
+
+<https://example.org/comect-demo/organisation/arctic-population-health-modelling-unit> a foaf:Organization ;
+    foaf:name "Arctic Population Health Modelling Unit" ;
+    ex:locationDescription "Denmark" .
+
+<https://example.org/comect-demo/organisation/atlantic-community-prevention-lab> a foaf:Organization ;
+    foaf:name "Atlantic Community Prevention Lab" ;
+    ex:locationDescription "Ireland" .
+
+<https://example.org/comect-demo/organisation/canal-clinical-trials-alliance> a foaf:Organization ;
+    foaf:name "Canal Clinical Trials Alliance" ;
+    ex:locationDescription "Netherlands" .
+
+<https://example.org/comect-demo/organisation/equator-one-health-field-observatory> a foaf:Organization ;
+    foaf:name "Equator One Health Field Observatory" ;
+    ex:locationDescription "Kenya" .
+
+<https://example.org/comect-demo/organisation/iberian-community-vaccine-lab> a foaf:Organization ;
+    foaf:name "Iberian Community Vaccine Lab" ;
+    ex:locationDescription "Spain" .
+
+<https://example.org/comect-demo/organisation/mediterranean-maternal-health-collaborative> a foaf:Organization ;
+    foaf:name "Mediterranean Maternal Health Collaborative" ;
+    ex:locationDescription "Italy" .
+
+<https://example.org/comect-demo/organisation/northlake-infection-analytics-centre> a foaf:Organization ;
+    foaf:name "Northlake Infection Analytics Centre" ;
+    ex:locationDescription "Sweden" .
+
+<https://example.org/comect-demo/organisation/rhone-diagnostic-innovation-group> a foaf:Organization ;
+    foaf:name "Rhone Diagnostic Innovation Group" ;
+    ex:locationDescription "France" .
+
+<https://example.org/comect-demo/organisation/seabright-respiratory-research-institute> a foaf:Organization ;
+    foaf:name "Seabright Respiratory Research Institute" ;
+    ex:locationDescription "Netherlands" .
+
+<https://example.org/comect-demo/project/icu-path-research-consortium> a ex:ConsortiumProject ;
+    dct:alternative "ICU-PATH" ;
+    skos:prefLabel "ICU-PATH research consortium" .
+
+<https://example.org/comect-demo/project/mama-resp-research-consortium> a ex:ConsortiumProject ;
+    dct:alternative "MAMA-RESP" ;
+    skos:prefLabel "MAMA-RESP research consortium" .
+
+<https://example.org/comect-demo/project/water-watch-research-consortium> a ex:ConsortiumProject ;
+    dct:alternative "WATER-WATCH" ;
+    skos:prefLabel "WATER-WATCH research consortium" .
+
+<https://example.org/comect-demo/recruitment-status/completed-trial-ended-as-planned> a skos:Concept ;
+    skos:prefLabel "Completed - trial ended as planned" .
+
+<https://example.org/comect-demo/recruitment-status/not-yet-applicable-i-e-for-surveillance> a skos:Concept ;
+    skos:prefLabel "Not yet applicable (i.e., for surveillance)" .
+
+<https://example.org/comect-demo/recruitment-status/not-yet-recruiting> a skos:Concept ;
+    skos:prefLabel "Not yet recruiting" .
+
+<https://example.org/comect-demo/setting/school> a skos:Concept ;
+    skos:prefLabel "School" .
+
+<https://example.org/comect-demo/sharing/SYN-0001> a ex:SharingConditions ;
+    ex:consentResponse "Yes - secondary use covered by broad consent within the informed consent form" ;
+    ex:ipdSharingStatus "Yes - planned" ;
+    ex:reportsPermissionVocabulary <https://example.org/comect-demo/permission-vocabulary/the-global-alliance-for-genomics-and-health-ga4gh-data-use-ontology-duo> ;
+    ex:retentionCategory "10-14 years" .
+
+<https://example.org/comect-demo/sharing/SYN-0002> a ex:SharingConditions ;
+    ex:consentResponse "No - broad consent not obtained but secondary use permitted through institutional consent procedures or applicable national/regional regulations" ;
+    ex:ipdSharingStatus "Yes - planned" ;
+    ex:retentionCategory "15-25 years" .
+
+<https://example.org/comect-demo/sharing/SYN-0003> a ex:SharingConditions ;
+    ex:consentLimits "Controlled secondary use only within approved research organisations; further ethics approval required for international transfers." ;
+    ex:consentResponse "Yes (Partially) - broad consent obtained within the informed consent form for secondary use with some restrictions (e.g., broad consent covers data reuse within the consortium or within Europe, but not outside)" ;
+    ex:intendedIPDAudience <https://example.org/comect-demo/audience/academic-researchers> ;
+    ex:ipdSharingStatus "Yes - already shared" ;
+    ex:reportedAccessMechanism "Controlled access after proposal and ethics review" ;
+    ex:reportsPermissionVocabulary <https://example.org/comect-demo/permission-vocabulary/the-global-alliance-for-genomics-and-health-ga4gh-data-use-ontology-duo> ;
+    ex:retentionCategory "10-14 years" .
+
+<https://example.org/comect-demo/sharing/SYN-0004> a ex:SharingConditions ;
+    ex:consentResponse "Yes - secondary use covered by broad consent within the informed consent form" ;
+    ex:ipdSharingStatus "Yes - planned" ;
+    ex:retentionCategory "15-25 years" .
+
+<https://example.org/comect-demo/sharing/SYN-0005> a ex:SharingConditions ;
+    ex:consentResponse "No - re-consent or additional approvals required" ;
+    ex:ipdSharingStatus "No - by ethics or consent restriction" ;
+    ex:retentionCategory "10-14 years" .
+
+<https://example.org/comect-demo/sharing/SYN-0006> a ex:SharingConditions ;
+    ex:consentResponse "No - waiver of consent obtained for secondary use of data" ;
+    ex:intendedIPDAudience <https://example.org/comect-demo/audience/academic-researchers> ;
+    ex:ipdSharingStatus "Yes - already shared" ;
+    ex:reportedAccessMechanism "Controlled access after proposal and ethics review" ;
+    ex:reportsPermissionVocabulary <https://example.org/comect-demo/permission-vocabulary/the-global-alliance-for-genomics-and-health-ga4gh-data-use-ontology-duo> ;
+    ex:retentionCategory "15-25 years" .
+
+<https://example.org/comect-demo/sharing/SYN-0007> a ex:SharingConditions ;
+    ex:consentLimits "Controlled secondary use only within approved research organisations; further ethics approval required for international transfers." ;
+    ex:consentResponse "Yes (Partially) - broad consent obtained within the informed consent form for secondary use with some restrictions (e.g., broad consent covers data reuse within the consortium or within Europe, but not outside)" ;
+    ex:ipdSharingStatus "Yes - planned" ;
+    ex:reportsPermissionVocabulary <https://example.org/comect-demo/permission-vocabulary/the-global-alliance-for-genomics-and-health-ga4gh-data-use-ontology-duo> ;
+    ex:retentionCategory "10-14 years" .
+
+<https://example.org/comect-demo/sharing/SYN-0008> a ex:SharingConditions ;
+    ex:consentResponse "Yes - secondary use covered by broad consent within the informed consent form" ;
+    ex:intendedIPDAudience <https://example.org/comect-demo/audience/academic-researchers> ;
+    ex:ipdSharingStatus "Yes - already shared" ;
+    ex:reportedAccessMechanism "Controlled access after proposal and ethics review" ;
+    ex:retentionCategory "15-25 years" .
+
+<https://example.org/comect-demo/sharing/SYN-0009> a ex:SharingConditions ;
+    ex:consentResponse "Yes - secondary use covered by broad consent within the informed consent form" ;
+    ex:intendedIPDAudience <https://example.org/comect-demo/audience/academic-researchers> ;
+    ex:ipdSharingStatus "Yes - already shared" ;
+    ex:reportedAccessMechanism "Controlled access after proposal and ethics review" ;
+    ex:reportsPermissionVocabulary <https://example.org/comect-demo/permission-vocabulary/the-global-alliance-for-genomics-and-health-ga4gh-data-use-ontology-duo> ;
+    ex:retentionCategory "10-14 years" .
+
+<https://example.org/comect-demo/sharing/SYN-0010> a ex:SharingConditions ;
+    ex:consentResponse "Unknown" ;
+    ex:ipdSharingStatus "Not yet decided" ;
+    ex:retentionCategory "15-25 years" .
+
+<https://example.org/comect-demo/standard-report/SYN-0001/hl7-fhir> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/hl7-fhir> .
+
+<https://example.org/comect-demo/standard-report/SYN-0001/loinc> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/loinc> .
+
+<https://example.org/comect-demo/standard-report/SYN-0001/snomed-ct> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/snomed-ct> .
+
+<https://example.org/comect-demo/standard-report/SYN-0002/icd-10-or-icd-11> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/icd-10-or-icd-11> .
+
+<https://example.org/comect-demo/standard-report/SYN-0002/loinc> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/loinc> .
+
+<https://example.org/comect-demo/standard-report/SYN-0002/omop-common-data-model-omop-cdm> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/omop-common-data-model-omop-cdm> .
+
+<https://example.org/comect-demo/standard-report/SYN-0003/cdisc-cdash-sdtm> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/cdisc-cdash-sdtm> ;
+    ex:plannedImplementationPublication "Yes" ;
+    ex:reportedImplementation "Partially implemented - format changed, non-standard variables (NSV) used" ;
+    ex:reportedStandardVersion "SDTMIG 3.4 (illustrative self-report)" .
+
+<https://example.org/comect-demo/standard-report/SYN-0003/loinc> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/loinc> .
+
+<https://example.org/comect-demo/standard-report/SYN-0003/meddra-medications> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/meddra-medications> .
+
+<https://example.org/comect-demo/standard-report/SYN-0004/cdisc-cdash-sdtm> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/cdisc-cdash-sdtm> ;
+    ex:reportedImplementation "Fully implemented" ;
+    ex:reportedStandardVersion "SDTMIG 3.4 (illustrative self-report)" .
+
+<https://example.org/comect-demo/standard-report/SYN-0004/meddra-medications> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/meddra-medications> .
+
+<https://example.org/comect-demo/standard-report/SYN-0005/icd-10-or-icd-11> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/icd-10-or-icd-11> .
+
+<https://example.org/comect-demo/standard-report/SYN-0005/loinc> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/loinc> .
+
+<https://example.org/comect-demo/standard-report/SYN-0006/icd-10-or-icd-11> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/icd-10-or-icd-11> .
+
+<https://example.org/comect-demo/standard-report/SYN-0006/omop-common-data-model-omop-cdm> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/omop-common-data-model-omop-cdm> .
+
+<https://example.org/comect-demo/standard-report/SYN-0006/snomed-ct> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/snomed-ct> .
+
+<https://example.org/comect-demo/standard-report/SYN-0007/hl7-fhir> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/hl7-fhir> .
+
+<https://example.org/comect-demo/standard-report/SYN-0007/snomed-ct> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/snomed-ct> .
+
+<https://example.org/comect-demo/standard-report/SYN-0008/hl7-fhir> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/hl7-fhir> .
+
+<https://example.org/comect-demo/standard-report/SYN-0008/loinc> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/loinc> .
+
+<https://example.org/comect-demo/standard-report/SYN-0009/loinc> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/loinc> .
+
+<https://example.org/comect-demo/standard-report/SYN-0009/snomed-ct> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/snomed-ct> .
+
+<https://example.org/comect-demo/standard-report/SYN-0010/cdisc-cdash-sdtm> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/cdisc-cdash-sdtm> ;
+    ex:reportedImplementation "Planned - not sure yet" ;
+    ex:reportedStandardVersion "SDTMIG 3.4 (illustrative self-report)" .
+
+<https://example.org/comect-demo/standard-report/SYN-0010/loinc> a ex:StandardUseReport ;
+    ex:aboutStandard <https://example.org/comect-demo/standard/loinc> .
+
+<https://example.org/comect-demo/study-registration/SYN-0001/1> a ex:SelfReportedStudyRegistration ;
+    dct:identifier "DEMO-REG-0001" ;
+    ex:registryName "OSF – Open Science Framework" .
+
+<https://example.org/comect-demo/study-registration/SYN-0002/1> a ex:SelfReportedStudyRegistration ;
+    dct:identifier "DEMO-REG-0002" ;
+    ex:registryName "OSF – Open Science Framework" .
+
+<https://example.org/comect-demo/study-registration/SYN-0003/1> a ex:SelfReportedStudyRegistration ;
+    dct:identifier "DEMO-REG-0003" ;
+    ex:registryName "ClinicalTrials.gov - ClinicalTrials.gov" .
+
+<https://example.org/comect-demo/study-registration/SYN-0005/1> a ex:SelfReportedStudyRegistration ;
+    dct:identifier "DEMO-REG-0005" ;
+    ex:registryName "OSF – Open Science Framework" .
+
+<https://example.org/comect-demo/study-registration/SYN-0006/1> a ex:SelfReportedStudyRegistration ;
+    dct:identifier "DEMO-REG-0006" ;
+    ex:registryName "OSF – Open Science Framework" .
+
+<https://example.org/comect-demo/study-registration/SYN-0008/1> a ex:SelfReportedStudyRegistration ;
+    dct:identifier "DEMO-REG-0008" ;
+    ex:registryName "ClinicalTrials.gov - ClinicalTrials.gov" .
+
+<https://example.org/comect-demo/study-registration/SYN-0009/1> a ex:SelfReportedStudyRegistration ;
+    dct:identifier "DEMO-REG-0009" ;
+    ex:registryName "OSF – Open Science Framework" .
+
+<https://example.org/comect-demo/study-registration/SYN-0010/1> a ex:SelfReportedStudyRegistration ;
+    dct:identifier "DEMO-REG-0010" ;
+    ex:registryName "ClinicalTrials.gov - ClinicalTrials.gov" .
+
+<https://example.org/comect-demo/study/SYN-0001> a ex:Study ;
+    dct:abstract "A cross-border observational cohort describing respiratory illness, care use and follow-up in primary care; investigators collect structured clinical metadata and selected immune markers. This is a wholly fictional observational research example designed to illustrate how a completed machine-actionable data management plan can be discovered alongside other study descriptions. The fictional coordinating institution is Seabright Respiratory Research Institute. Its study countries are Netherlands, Germany; these locations indicate where the study takes place and do not automatically describe the geographical coverage of any future published dataset. The study is labelled recruiting at the time of the example. Dates refer to the study plan, not to trial registration or metadata publication. The central scientific question concerns respiratory infection and household contact. The investigators observe people or records under a defined study protocol rather than assigning a new treatment as the primary research design. The target population includes Adults, Older adults. The description of eligibility is simplified for the demonstration, and any real version would require precise inclusion and exclusion criteria, site approvals, risk assessment and a scientifically justified recruitment strategy. The planned enrolment is 2400 and the achieved or currently recorded enrolment is 420 in this invented submission. These illustrative figures are not observed research results and should not be used for epidemiological inference. Research activities are represented through setting categories such as Primary care, Community. The maDMP records data categories including Sociodemographic, Serology and primary outcome categories including Physicological or Clinical, Resource use. This structured metadata is useful for identifying related research, comparing study scope and noticing differences in data collection practices. It is not equivalent to access to clinical records, laboratory measurements or individual participant information. Selected existing records will also be reused, so source descriptions, linkage procedures, provenance and responsible governance would need to be documented before any secondary analysis. A real investigator would also describe missing-data management, audit trails, versioning, documentation and responsible stewardship at each participating institution. The completed form reports standards such as HL7 FHIR, SNOMED CT, LOINC. Selecting these names means the researcher says they use or plan to use them; conformance cannot be established from a checkbox alone. The investigators report an intention to share participant-level data in the future, subject to consent, ethics, safeguards and access agreements. Data access questions must be considered separately from study discovery because consent language, retention periods, transfer limitations and data access committees can impose additional requirements. In this demonstration, the purpose of collecting the maDMP is to enable transparent searching for studies and potential collaborators, while preserving enough context to ask informed questions before any data-sharing negotiation. All people, identifiers, funders and organisations described here are fabricated for safe testing." ;
+    dct:alternative "AURORA-RESP" ;
+    dct:isPartOf <https://example.org/comect-demo/project/resp-net-research-consortium> ;
+    dct:spatial <https://example.org/comect-demo/country/DE>,
+        <https://example.org/comect-demo/country/NL> ;
+    dct:title "AURORA respiratory infection monitoring across community care" ;
+    ex:actualEnrolment 420 ;
+    ex:centreType "Multi-centre" ;
+    ex:dataType <https://example.org/comect-demo/datatype/serology-immunology>,
+        <https://example.org/comect-demo/datatype/sociodemographic> ;
+    ex:ethnicityFocus <https://example.org/comect-demo/ethnicity/not-applicable> ;
+    ex:exclusionCriteria "Unable to consent or satisfy protocol-specific safety and eligibility criteria." ;
+    ex:exposure "Respiratory infection and household contact" ;
+    ex:fundedBy <https://example.org/comect-demo/funder/aster-research-council> ;
+    ex:hasDMP <https://example.org/comect-demo/dmp/SYN-0001> ;
+    ex:hasPrincipalInvestigator <https://example.org/comect-demo/researcher/SYN-0001> ;
+    ex:hasRecruitmentStatus <https://example.org/comect-demo/recruitment-status/recruiting> ;
+    ex:hasSelfReportedRegistration <https://example.org/comect-demo/study-registration/SYN-0001/1> ;
+    ex:hasSharingConditions <https://example.org/comect-demo/sharing/SYN-0001> ;
+    ex:inclusionCriteria "Community clinics enrol adults with respiratory symptoms." ;
+    ex:leadInstitution <https://example.org/comect-demo/organisation/seabright-respiratory-research-institute> ;
+    ex:pathogenGroup <https://example.org/comect-demo/pathogen-group/viruses> ;
+    ex:plannedEnrolment 2400 ;
+    ex:primaryOutcome <https://example.org/comect-demo/outcome/physicological-or-clinical>,
+        <https://example.org/comect-demo/outcome/resource-use> ;
+    ex:recruitmentStatus "Recruiting" ;
+    ex:reportedCatalogue <https://example.org/comect-demo/catalogue/pathogens-portal> ;
+    ex:reportsUseOfStandard <https://example.org/comect-demo/standard/hl7-fhir>,
+        <https://example.org/comect-demo/standard/loinc>,
+        <https://example.org/comect-demo/standard/snomed-ct> ;
+    ex:standardUseReport <https://example.org/comect-demo/standard-report/SYN-0001/hl7-fhir>,
+        <https://example.org/comect-demo/standard-report/SYN-0001/loinc>,
+        <https://example.org/comect-demo/standard-report/SYN-0001/snomed-ct> ;
+    ex:studyDesign "Observational" ;
+    ex:studyEndDate "2028-01-31"^^xsd:date ;
+    ex:studyFocus <https://example.org/comect-demo/focus/epidemiological-studies>,
+        <https://example.org/comect-demo/focus/pathogen-natural-history-transmission-and-diagnostics> ;
+    ex:studySetting <https://example.org/comect-demo/setting/community>,
+        <https://example.org/comect-demo/setting/primary-care> ;
+    ex:studyStartDate "2026-02-01"^^xsd:date ;
+    ex:supportedByGrant <https://example.org/comect-demo/grant/syn-0001-grant-1> ;
+    ex:synthetic true ;
+    ex:takesPlaceIn <https://example.org/comect-demo/country/DE>,
+        <https://example.org/comect-demo/country/NL> ;
+    ex:targetAgeGroup <https://example.org/comect-demo/age-group/adults-18-and-older>,
+        <https://example.org/comect-demo/age-group/older-adults-65-and-older> .
+
+<https://example.org/comect-demo/study/SYN-0002> a ex:Study ;
+    dct:abstract "A multicountry surveillance-oriented cohort investigates care pathways and outcomes after resistant bacterial infections, linking hospital records and microbiology results. This is a wholly fictional observational research example designed to illustrate how a completed machine-actionable data management plan can be discovered alongside other study descriptions. The fictional coordinating institution is Northlake Infection Analytics Centre. Its study countries are Sweden, Norway, Finland; these locations indicate where the study takes place and do not automatically describe the geographical coverage of any future published dataset. The study is labelled recruiting at the time of the example. Dates refer to the study plan, not to trial registration or metadata publication. The central scientific question concerns antibiotic-resistant bacterial infections. The investigators observe people or records under a defined study protocol rather than assigning a new treatment as the primary research design. The target population includes Adults, Older adults. The description of eligibility is simplified for the demonstration, and any real version would require precise inclusion and exclusion criteria, site approvals, risk assessment and a scientifically justified recruitment strategy. The planned enrolment is 3200 and the achieved or currently recorded enrolment is 910 in this invented submission. These illustrative figures are not observed research results and should not be used for epidemiological inference. Research activities are represented through setting categories such as Secondary care hospital, Tertiary. The maDMP records data categories including Pathogen Genomics, Sociodemographic and primary outcome categories including Death, Resource use. This structured metadata is useful for identifying related research, comparing study scope and noticing differences in data collection practices. It is not equivalent to access to clinical records, laboratory measurements or individual participant information. Selected existing records will also be reused, so source descriptions, linkage procedures, provenance and responsible governance would need to be documented before any secondary analysis. A real investigator would also describe missing-data management, audit trails, versioning, documentation and responsible stewardship at each participating institution. The completed form reports standards such as OMOP Common Data, ICD-10, LOINC. Selecting these names means the researcher says they use or plan to use them; conformance cannot be established from a checkbox alone. The investigators report an intention to share participant-level data in the future, subject to consent, ethics, safeguards and access agreements. Data access questions must be considered separately from study discovery because consent language, retention periods, transfer limitations and data access committees can impose additional requirements. In this demonstration, the purpose of collecting the maDMP is to enable transparent searching for studies and potential collaborators, while preserving enough context to ask informed questions before any data-sharing negotiation. All people, identifiers, funders and organisations described here are fabricated for safe testing." ;
+    dct:alternative "BOREAL-AMR" ;
+    dct:isPartOf <https://example.org/comect-demo/project/north-care-research-consortium> ;
+    dct:spatial <https://example.org/comect-demo/country/FI>,
+        <https://example.org/comect-demo/country/NO>,
+        <https://example.org/comect-demo/country/SE> ;
+    dct:title "BOREAL antimicrobial resistance outcomes in northern hospitals" ;
+    ex:actualEnrolment 910 ;
+    ex:centreType "Multi-centre" ;
+    ex:dataType <https://example.org/comect-demo/datatype/pathogen-genomics>,
+        <https://example.org/comect-demo/datatype/sociodemographic> ;
+    ex:ethnicityFocus <https://example.org/comect-demo/ethnicity/not-applicable> ;
+    ex:exclusionCriteria "Unable to consent or satisfy protocol-specific safety and eligibility criteria." ;
+    ex:exposure "Antibiotic-resistant bacterial infections" ;
+    ex:fundedBy <https://example.org/comect-demo/funder/aster-research-council>,
+        <https://example.org/comect-demo/funder/boreal-science-trust> ;
+    ex:hasDMP <https://example.org/comect-demo/dmp/SYN-0002> ;
+    ex:hasPrincipalInvestigator <https://example.org/comect-demo/researcher/SYN-0002> ;
+    ex:hasRecruitmentStatus <https://example.org/comect-demo/recruitment-status/recruiting> ;
+    ex:hasSelfReportedRegistration <https://example.org/comect-demo/study-registration/SYN-0002/1> ;
+    ex:hasSharingConditions <https://example.org/comect-demo/sharing/SYN-0002> ;
+    ex:inclusionCriteria "Adults receiving hospital care for confirmed resistant bacterial infection." ;
+    ex:leadInstitution <https://example.org/comect-demo/organisation/northlake-infection-analytics-centre> ;
+    ex:pathogenGroup <https://example.org/comect-demo/pathogen-group/bacteria> ;
+    ex:plannedEnrolment 3200 ;
+    ex:primaryOutcome <https://example.org/comect-demo/outcome/death>,
+        <https://example.org/comect-demo/outcome/resource-use> ;
+    ex:recruitmentStatus "Recruiting" ;
+    ex:reportedCatalogue <https://example.org/comect-demo/catalogue/fairsharing-org> ;
+    ex:reportsUseOfStandard <https://example.org/comect-demo/standard/icd-10-or-icd-11>,
+        <https://example.org/comect-demo/standard/loinc>,
+        <https://example.org/comect-demo/standard/omop-common-data-model-omop-cdm> ;
+    ex:standardUseReport <https://example.org/comect-demo/standard-report/SYN-0002/icd-10-or-icd-11>,
+        <https://example.org/comect-demo/standard-report/SYN-0002/loinc>,
+        <https://example.org/comect-demo/standard-report/SYN-0002/omop-common-data-model-omop-cdm> ;
+    ex:studyBacterium <https://example.org/comect-demo/bacterium/escherichia-coli> ;
+    ex:studyDesign "Observational" ;
+    ex:studyEndDate "2027-09-30"^^xsd:date ;
+    ex:studyFocus <https://example.org/comect-demo/focus/clinical-characterisation-and-management>,
+        <https://example.org/comect-demo/focus/epidemiological-studies> ;
+    ex:studySetting <https://example.org/comect-demo/setting/secondary-care-hospital>,
+        <https://example.org/comect-demo/setting/tertiary-acute-care-hospital> ;
+    ex:studyStartDate "2025-08-01"^^xsd:date ;
+    ex:supportedByGrant <https://example.org/comect-demo/grant/syn-0002-grant-1>,
+        <https://example.org/comect-demo/grant/syn-0002-grant-2> ;
+    ex:synthetic true ;
+    ex:takesPlaceIn <https://example.org/comect-demo/country/FI>,
+        <https://example.org/comect-demo/country/NO>,
+        <https://example.org/comect-demo/country/SE> ;
+    ex:targetAgeGroup <https://example.org/comect-demo/age-group/adults-18-and-older>,
+        <https://example.org/comect-demo/age-group/older-adults-65-and-older> ;
+    ex:transmissionMode <https://example.org/comect-demo/transmission/direct-contact-body-fluids> .
+
+<https://example.org/comect-demo/study/SYN-0003> a ex:Study ;
+    dct:abstract "A multicentre intervention tests a protocol-guided care pathway for intensive-care sepsis, collecting treatment safety and follow-up outcomes. This is a wholly fictional interventional research example designed to illustrate how a completed machine-actionable data management plan can be discovered alongside other study descriptions. The fictional coordinating institution is Canal Clinical Trials Alliance. Its study countries are Netherlands, Belgium, France; these locations indicate where the study takes place and do not automatically describe the geographical coverage of any future published dataset. The study is labelled recruiting at the time of the example. Dates refer to the study plan, not to trial registration or metadata publication. The central scientific question concerns protocol-guided sepsis treatment pathway. The investigators compare intervention and routine-care pathways using a study protocol that specifies patient selection, follow-up and outcome measurement. The target population includes Adults. The description of eligibility is simplified for the demonstration, and any real version would require precise inclusion and exclusion criteria, site approvals, risk assessment and a scientifically justified recruitment strategy. The planned enrolment is 900 and the achieved or currently recorded enrolment is 460 in this invented submission. These illustrative figures are not observed research results and should not be used for epidemiological inference. Research activities are represented through setting categories such as Tertiary. The maDMP records data categories including Samples, Serology and primary outcome categories including Death, Adverse event. This structured metadata is useful for identifying related research, comparing study scope and noticing differences in data collection practices. It is not equivalent to access to clinical records, laboratory measurements or individual participant information. The plan focuses primarily on newly collected observations rather than reuse of external participant-level sources; this does not remove the need to document provenance and data quality. A real investigator would also describe missing-data management, audit trails, versioning, documentation and responsible stewardship at each participating institution. The completed form reports standards such as CDISC CDASH/SDTM, MedDRA, LOINC. Selecting these names means the researcher says they use or plan to use them; conformance cannot be established from a checkbox alone. The reported intention is that de-identified participant-level data are already shared in the fictional scenario, but access conditions still have to be reviewed and approval cannot be assumed. Data access questions must be considered separately from study discovery because consent language, retention periods, transfer limitations and data access committees can impose additional requirements. In this demonstration, the purpose of collecting the maDMP is to enable transparent searching for studies and potential collaborators, while preserving enough context to ask informed questions before any data-sharing negotiation. All people, identifiers, funders and organisations described here are fabricated for safe testing." ;
+    dct:alternative "PATHWAYS-ICU" ;
+    dct:isPartOf <https://example.org/comect-demo/project/icu-path-research-consortium> ;
+    dct:spatial <https://example.org/comect-demo/country/BE>,
+        <https://example.org/comect-demo/country/FR>,
+        <https://example.org/comect-demo/country/NL> ;
+    dct:title "PATHWAYS intensive care sepsis intervention study" ;
+    ex:actualEnrolment 460 ;
+    ex:centreType "Multi-centre" ;
+    ex:dataType <https://example.org/comect-demo/datatype/samples>,
+        <https://example.org/comect-demo/datatype/serology-immunology> ;
+    ex:ethnicityFocus <https://example.org/comect-demo/ethnicity/not-applicable> ;
+    ex:exclusionCriteria "Unable to consent or satisfy protocol-specific safety and eligibility criteria." ;
+    ex:exposure "Protocol-guided sepsis treatment pathway" ;
+    ex:fundedBy <https://example.org/comect-demo/funder/aster-research-council> ;
+    ex:hasDMP <https://example.org/comect-demo/dmp/SYN-0003> ;
+    ex:hasPrincipalInvestigator <https://example.org/comect-demo/researcher/SYN-0003> ;
+    ex:hasRecruitmentStatus <https://example.org/comect-demo/recruitment-status/recruiting> ;
+    ex:hasSelfReportedRegistration <https://example.org/comect-demo/study-registration/SYN-0003/1> ;
+    ex:hasSharingConditions <https://example.org/comect-demo/sharing/SYN-0003> ;
+    ex:inclusionCriteria "Adults in participating ICUs with clinician-assessed sepsis." ;
+    ex:leadInstitution <https://example.org/comect-demo/organisation/canal-clinical-trials-alliance> ;
+    ex:pathogenGroup <https://example.org/comect-demo/pathogen-group/bacteria> ;
+    ex:plannedEnrolment 900 ;
+    ex:primaryOutcome <https://example.org/comect-demo/outcome/adverse-event>,
+        <https://example.org/comect-demo/outcome/death> ;
+    ex:recruitmentStatus "Recruiting" ;
+    ex:reportedCatalogue <https://example.org/comect-demo/catalogue/vivli> ;
+    ex:reportsUseOfStandard <https://example.org/comect-demo/standard/cdisc-cdash-sdtm>,
+        <https://example.org/comect-demo/standard/loinc>,
+        <https://example.org/comect-demo/standard/meddra-medications> ;
+    ex:standardUseReport <https://example.org/comect-demo/standard-report/SYN-0003/cdisc-cdash-sdtm>,
+        <https://example.org/comect-demo/standard-report/SYN-0003/loinc>,
+        <https://example.org/comect-demo/standard-report/SYN-0003/meddra-medications> ;
+    ex:studyBacterium <https://example.org/comect-demo/bacterium/klebsiella-pneumoniae> ;
+    ex:studyDesign "Interventional" ;
+    ex:studyEndDate "2027-03-31"^^xsd:date ;
+    ex:studyFocus <https://example.org/comect-demo/focus/clinical-characterisation-and-management>,
+        <https://example.org/comect-demo/focus/therapeutics-research-development-and-implementation> ;
+    ex:studySetting <https://example.org/comect-demo/setting/tertiary-acute-care-hospital> ;
+    ex:studyStartDate "2025-03-01"^^xsd:date ;
+    ex:supportedByGrant <https://example.org/comect-demo/grant/syn-0003-grant-1> ;
+    ex:synthetic true ;
+    ex:takesPlaceIn <https://example.org/comect-demo/country/BE>,
+        <https://example.org/comect-demo/country/FR>,
+        <https://example.org/comect-demo/country/NL> ;
+    ex:targetAgeGroup <https://example.org/comect-demo/age-group/adults-18-and-older> ;
+    ex:transmissionMode <https://example.org/comect-demo/transmission/direct-contact-body-fluids> .
+
+<https://example.org/comect-demo/study/SYN-0004> a ex:Study ;
+    dct:abstract "A planned vaccine-response intervention examines immune and patient-reported outcomes in community settings along the Iberian coast. This is a wholly fictional interventional research example designed to illustrate how a completed machine-actionable data management plan can be discovered alongside other study descriptions. The fictional coordinating institution is Iberian Community Vaccine Lab. Its study countries are Spain, Portugal; these locations indicate where the study takes place and do not automatically describe the geographical coverage of any future published dataset. The study is labelled not yet recruiting at the time of the example. Dates refer to the study plan, not to trial registration or metadata publication. The central scientific question concerns seasonal respiratory vaccination. The investigators compare intervention and routine-care pathways using a study protocol that specifies patient selection, follow-up and outcome measurement. The target population includes Adults, Adolescent. The description of eligibility is simplified for the demonstration, and any real version would require precise inclusion and exclusion criteria, site approvals, risk assessment and a scientifically justified recruitment strategy. The planned enrolment is 1500 and the achieved or currently recorded enrolment is 0 in this invented submission. These illustrative figures are not observed research results and should not be used for epidemiological inference. Research activities are represented through setting categories such as Community, Primary care. The maDMP records data categories including Serology, Sociodemographic and primary outcome categories including Physicological or Clinical, Adverse event. This structured metadata is useful for identifying related research, comparing study scope and noticing differences in data collection practices. It is not equivalent to access to clinical records, laboratory measurements or individual participant information. The plan focuses primarily on newly collected observations rather than reuse of external participant-level sources; this does not remove the need to document provenance and data quality. A real investigator would also describe missing-data management, audit trails, versioning, documentation and responsible stewardship at each participating institution. The completed form reports standards such as CDISC CDASH/SDTM, MedDRA. Selecting these names means the researcher says they use or plan to use them; conformance cannot be established from a checkbox alone. The investigators report an intention to share participant-level data in the future, subject to consent, ethics, safeguards and access agreements. Data access questions must be considered separately from study discovery because consent language, retention periods, transfer limitations and data access committees can impose additional requirements. In this demonstration, the purpose of collecting the maDMP is to enable transparent searching for studies and potential collaborators, while preserving enough context to ask informed questions before any data-sharing negotiation. All people, identifiers, funders and organisations described here are fabricated for safe testing." ;
+    dct:alternative "VAX-BRIDGE" ;
+    dct:spatial <https://example.org/comect-demo/country/ES>,
+        <https://example.org/comect-demo/country/PT> ;
+    dct:title "VAX-BRIDGE vaccine response study in coastal communities" ;
+    ex:actualEnrolment 0 ;
+    ex:centreType "Multi-centre" ;
+    ex:dataType <https://example.org/comect-demo/datatype/serology-immunology>,
+        <https://example.org/comect-demo/datatype/sociodemographic> ;
+    ex:ethnicityFocus <https://example.org/comect-demo/ethnicity/not-applicable> ;
+    ex:exclusionCriteria "Unable to consent or satisfy protocol-specific safety and eligibility criteria." ;
+    ex:exposure "Seasonal respiratory vaccination" ;
+    ex:fundedBy <https://example.org/comect-demo/funder/coastal-health-innovation-fund> ;
+    ex:hasDMP <https://example.org/comect-demo/dmp/SYN-0004> ;
+    ex:hasPrincipalInvestigator <https://example.org/comect-demo/researcher/SYN-0004> ;
+    ex:hasRecruitmentStatus <https://example.org/comect-demo/recruitment-status/not-yet-recruiting> ;
+    ex:hasSharingConditions <https://example.org/comect-demo/sharing/SYN-0004> ;
+    ex:inclusionCriteria "Adolescents and adults will be invited to vaccination follow-up visits." ;
+    ex:leadInstitution <https://example.org/comect-demo/organisation/iberian-community-vaccine-lab> ;
+    ex:pathogenGroup <https://example.org/comect-demo/pathogen-group/viruses> ;
+    ex:plannedEnrolment 1500 ;
+    ex:primaryOutcome <https://example.org/comect-demo/outcome/adverse-event>,
+        <https://example.org/comect-demo/outcome/physicological-or-clinical> ;
+    ex:recruitmentStatus "Not yet recruiting" ;
+    ex:reportedCatalogue <https://example.org/comect-demo/catalogue/not-planning-to-upload-to-any-catalogs> ;
+    ex:reportsUseOfStandard <https://example.org/comect-demo/standard/cdisc-cdash-sdtm>,
+        <https://example.org/comect-demo/standard/meddra-medications> ;
+    ex:standardUseReport <https://example.org/comect-demo/standard-report/SYN-0004/cdisc-cdash-sdtm>,
+        <https://example.org/comect-demo/standard-report/SYN-0004/meddra-medications> ;
+    ex:studyDesign "Interventional" ;
+    ex:studyEndDate "2028-10-31"^^xsd:date ;
+    ex:studyFocus <https://example.org/comect-demo/focus/infection-prevention-and-control>,
+        <https://example.org/comect-demo/focus/vaccines-research-development-and-implementation> ;
+    ex:studySetting <https://example.org/comect-demo/setting/community>,
+        <https://example.org/comect-demo/setting/primary-care> ;
+    ex:studyStartDate "2027-01-01"^^xsd:date ;
+    ex:supportedByGrant <https://example.org/comect-demo/grant/syn-0004-grant-1> ;
+    ex:synthetic true ;
+    ex:takesPlaceIn <https://example.org/comect-demo/country/ES>,
+        <https://example.org/comect-demo/country/PT> ;
+    ex:targetAgeGroup <https://example.org/comect-demo/age-group/adolescent-13-years-to-17-years>,
+        <https://example.org/comect-demo/age-group/adults-18-and-older> .
+
+<https://example.org/comect-demo/study/SYN-0005> a ex:Study ;
+    dct:abstract "Sentinel surveillance integrates clinical, environmental and field sampling information to describe suspected waterborne outbreaks and responses. This is a wholly fictional observational research example designed to illustrate how a completed machine-actionable data management plan can be discovered alongside other study descriptions. The fictional coordinating institution is Equator One Health Field Observatory. Its study countries are Kenya, Uganda; these locations indicate where the study takes place and do not automatically describe the geographical coverage of any future published dataset. The study is labelled recruiting at the time of the example. Dates refer to the study plan, not to trial registration or metadata publication. The central scientific question concerns surface-water and drinking-water exposure. The investigators observe people or records under a defined study protocol rather than assigning a new treatment as the primary research design. The target population includes Children (1 year, Adults. The description of eligibility is simplified for the demonstration, and any real version would require precise inclusion and exclusion criteria, site approvals, risk assessment and a scientifically justified recruitment strategy. The planned enrolment is 1800 and the achieved or currently recorded enrolment is 580 in this invented submission. These illustrative figures are not observed research results and should not be used for epidemiological inference. Research activities are represented through setting categories such as Community, Primary care. The maDMP records data categories including Environmental, Samples and primary outcome categories including Physicological or Clinical, Life impact. This structured metadata is useful for identifying related research, comparing study scope and noticing differences in data collection practices. It is not equivalent to access to clinical records, laboratory measurements or individual participant information. The plan focuses primarily on newly collected observations rather than reuse of external participant-level sources; this does not remove the need to document provenance and data quality. A real investigator would also describe missing-data management, audit trails, versioning, documentation and responsible stewardship at each participating institution. The completed form reports standards such as ICD-10, LOINC. Selecting these names means the researcher says they use or plan to use them; conformance cannot be established from a checkbox alone. Participant-level sharing is not currently agreed or is restricted in this fictional scenario; discoverable metadata should not be interpreted as permission to obtain participant data. Data access questions must be considered separately from study discovery because consent language, retention periods, transfer limitations and data access committees can impose additional requirements. In this demonstration, the purpose of collecting the maDMP is to enable transparent searching for studies and potential collaborators, while preserving enough context to ask informed questions before any data-sharing negotiation. All people, identifiers, funders and organisations described here are fabricated for safe testing." ;
+    dct:alternative "RIVER-HEALTH" ;
+    dct:isPartOf <https://example.org/comect-demo/project/water-watch-research-consortium> ;
+    dct:spatial <https://example.org/comect-demo/country/KE>,
+        <https://example.org/comect-demo/country/UG> ;
+    dct:title "RIVER-HEALTH waterborne infection sentinel surveillance" ;
+    ex:actualEnrolment 580 ;
+    ex:centreType "Multi-centre" ;
+    ex:dataType <https://example.org/comect-demo/datatype/environmental>,
+        <https://example.org/comect-demo/datatype/samples> ;
+    ex:ethnicityFocus <https://example.org/comect-demo/ethnicity/not-applicable> ;
+    ex:exclusionCriteria "Unable to consent or satisfy protocol-specific safety and eligibility criteria." ;
+    ex:exposure "Surface-water and drinking-water exposure" ;
+    ex:fundedBy <https://example.org/comect-demo/funder/equator-health-foundation> ;
+    ex:hasDMP <https://example.org/comect-demo/dmp/SYN-0005> ;
+    ex:hasPrincipalInvestigator <https://example.org/comect-demo/researcher/SYN-0005> ;
+    ex:hasRecruitmentStatus <https://example.org/comect-demo/recruitment-status/recruiting> ;
+    ex:hasSelfReportedRegistration <https://example.org/comect-demo/study-registration/SYN-0005/1> ;
+    ex:hasSharingConditions <https://example.org/comect-demo/sharing/SYN-0005> ;
+    ex:inclusionCriteria "People in rural and peri-urban sentinel communities with suspected enteric disease." ;
+    ex:leadInstitution <https://example.org/comect-demo/organisation/equator-one-health-field-observatory> ;
+    ex:pathogenGroup <https://example.org/comect-demo/pathogen-group/bacteria> ;
+    ex:plannedEnrolment 1800 ;
+    ex:primaryOutcome <https://example.org/comect-demo/outcome/life-impact>,
+        <https://example.org/comect-demo/outcome/physicological-or-clinical> ;
+    ex:recruitmentStatus "Recruiting" ;
+    ex:reportedCatalogue <https://example.org/comect-demo/catalogue/pathogens-portal> ;
+    ex:reportsUseOfStandard <https://example.org/comect-demo/standard/icd-10-or-icd-11>,
+        <https://example.org/comect-demo/standard/loinc> ;
+    ex:standardUseReport <https://example.org/comect-demo/standard-report/SYN-0005/icd-10-or-icd-11>,
+        <https://example.org/comect-demo/standard-report/SYN-0005/loinc> ;
+    ex:studyBacterium <https://example.org/comect-demo/bacterium/vibrio-cholerae> ;
+    ex:studyDesign "Observational" ;
+    ex:studyEndDate "2027-12-31"^^xsd:date ;
+    ex:studyFocus <https://example.org/comect-demo/focus/epidemiological-studies>,
+        <https://example.org/comect-demo/focus/policies-for-public-health-disease-control-community-resilience> ;
+    ex:studySetting <https://example.org/comect-demo/setting/community>,
+        <https://example.org/comect-demo/setting/primary-care> ;
+    ex:studyStartDate "2025-11-01"^^xsd:date ;
+    ex:supportedByGrant <https://example.org/comect-demo/grant/syn-0005-grant-1> ;
+    ex:synthetic true ;
+    ex:takesPlaceIn <https://example.org/comect-demo/country/KE>,
+        <https://example.org/comect-demo/country/UG> ;
+    ex:targetAgeGroup <https://example.org/comect-demo/age-group/adults-18-and-older>,
+        <https://example.org/comect-demo/age-group/children-1-year-to-12-years> ;
+    ex:transmissionMode <https://example.org/comect-demo/transmission/fecal-oral-water-borne> .
+
+<https://example.org/comect-demo/study/SYN-0006> a ex:Study ;
+    dct:abstract "A registry-linked observational surveillance project compares utilisation and severe outcomes associated with influenza seasons across two national health systems. This is a wholly fictional observational research example designed to illustrate how a completed machine-actionable data management plan can be discovered alongside other study descriptions. The fictional coordinating institution is Arctic Population Health Modelling Unit. Its study countries are Denmark, Sweden; these locations indicate where the study takes place and do not automatically describe the geographical coverage of any future published dataset. The study is labelled not yet applicable at the time of the example. Dates refer to the study plan, not to trial registration or metadata publication. The central scientific question concerns influenza-season healthcare contact patterns. The investigators observe people or records under a defined study protocol rather than assigning a new treatment as the primary research design. The target population includes Adults, Older adults. The description of eligibility is simplified for the demonstration, and any real version would require precise inclusion and exclusion criteria, site approvals, risk assessment and a scientifically justified recruitment strategy. The planned enrolment is 50000 and the achieved or currently recorded enrolment is 16000 in this invented submission. These illustrative figures are not observed research results and should not be used for epidemiological inference. Research activities are represented through setting categories such as Primary care, Secondary care hospital. The maDMP records data categories including Sociodemographic and primary outcome categories including Resource use, Death. This structured metadata is useful for identifying related research, comparing study scope and noticing differences in data collection practices. It is not equivalent to access to clinical records, laboratory measurements or individual participant information. Selected existing records will also be reused, so source descriptions, linkage procedures, provenance and responsible governance would need to be documented before any secondary analysis. A real investigator would also describe missing-data management, audit trails, versioning, documentation and responsible stewardship at each participating institution. The completed form reports standards such as OMOP Common Data, ICD-10, SNOMED CT. Selecting these names means the researcher says they use or plan to use them; conformance cannot be established from a checkbox alone. The reported intention is that de-identified participant-level data are already shared in the fictional scenario, but access conditions still have to be reviewed and approval cannot be assumed. Data access questions must be considered separately from study discovery because consent language, retention periods, transfer limitations and data access committees can impose additional requirements. In this demonstration, the purpose of collecting the maDMP is to enable transparent searching for studies and potential collaborators, while preserving enough context to ask informed questions before any data-sharing negotiation. All people, identifiers, funders and organisations described here are fabricated for safe testing." ;
+    dct:alternative "NORDIC-LINK" ;
+    dct:isPartOf <https://example.org/comect-demo/project/north-care-research-consortium> ;
+    dct:spatial <https://example.org/comect-demo/country/DK>,
+        <https://example.org/comect-demo/country/SE> ;
+    dct:title "NORDIC-LINK registry-based influenza service utilisation surveillance" ;
+    ex:actualEnrolment 16000 ;
+    ex:centreType "Multi-centre" ;
+    ex:dataType <https://example.org/comect-demo/datatype/sociodemographic> ;
+    ex:ethnicityFocus <https://example.org/comect-demo/ethnicity/not-applicable> ;
+    ex:exclusionCriteria "Unable to consent or satisfy protocol-specific safety and eligibility criteria." ;
+    ex:exposure "Influenza-season healthcare contact patterns" ;
+    ex:fundedBy <https://example.org/comect-demo/funder/boreal-science-trust> ;
+    ex:hasDMP <https://example.org/comect-demo/dmp/SYN-0006> ;
+    ex:hasPrincipalInvestigator <https://example.org/comect-demo/researcher/SYN-0006> ;
+    ex:hasRecruitmentStatus <https://example.org/comect-demo/recruitment-status/not-yet-applicable-i-e-for-surveillance> ;
+    ex:hasSelfReportedRegistration <https://example.org/comect-demo/study-registration/SYN-0006/1> ;
+    ex:hasSharingConditions <https://example.org/comect-demo/sharing/SYN-0006> ;
+    ex:inclusionCriteria "Registry-defined adult population; no prospective participant recruitment." ;
+    ex:leadInstitution <https://example.org/comect-demo/organisation/arctic-population-health-modelling-unit> ;
+    ex:pathogenGroup <https://example.org/comect-demo/pathogen-group/viruses> ;
+    ex:plannedEnrolment 50000 ;
+    ex:primaryOutcome <https://example.org/comect-demo/outcome/death>,
+        <https://example.org/comect-demo/outcome/resource-use> ;
+    ex:recruitmentStatus "Not yet applicable (i.e., for surveillance)" ;
+    ex:reportedCatalogue <https://example.org/comect-demo/catalogue/healthdata-eu-ehds-metadata-catalogue> ;
+    ex:reportsUseOfStandard <https://example.org/comect-demo/standard/icd-10-or-icd-11>,
+        <https://example.org/comect-demo/standard/omop-common-data-model-omop-cdm>,
+        <https://example.org/comect-demo/standard/snomed-ct> ;
+    ex:standardUseReport <https://example.org/comect-demo/standard-report/SYN-0006/icd-10-or-icd-11>,
+        <https://example.org/comect-demo/standard-report/SYN-0006/omop-common-data-model-omop-cdm>,
+        <https://example.org/comect-demo/standard-report/SYN-0006/snomed-ct> ;
+    ex:studyDesign "Observational" ;
+    ex:studyEndDate "2027-12-31"^^xsd:date ;
+    ex:studyFocus <https://example.org/comect-demo/focus/epidemiological-studies>,
+        <https://example.org/comect-demo/focus/health-systems-research> ;
+    ex:studySetting <https://example.org/comect-demo/setting/primary-care>,
+        <https://example.org/comect-demo/setting/secondary-care-hospital> ;
+    ex:studyStartDate "2024-01-01"^^xsd:date ;
+    ex:supportedByGrant <https://example.org/comect-demo/grant/syn-0006-grant-1> ;
+    ex:synthetic true ;
+    ex:takesPlaceIn <https://example.org/comect-demo/country/DK>,
+        <https://example.org/comect-demo/country/SE> ;
+    ex:targetAgeGroup <https://example.org/comect-demo/age-group/adults-18-and-older>,
+        <https://example.org/comect-demo/age-group/older-adults-65-and-older> .
+
+<https://example.org/comect-demo/study/SYN-0007> a ex:Study ;
+    dct:abstract "An antenatal cohort records respiratory infection episodes and maternal and infant outcomes while observing consent restrictions on secondary use. This is a wholly fictional observational research example designed to illustrate how a completed machine-actionable data management plan can be discovered alongside other study descriptions. The fictional coordinating institution is Mediterranean Maternal Health Collaborative. Its study countries are Italy, Greece; these locations indicate where the study takes place and do not automatically describe the geographical coverage of any future published dataset. The study is labelled recruiting at the time of the example. Dates refer to the study plan, not to trial registration or metadata publication. The central scientific question concerns respiratory infection during pregnancy. The investigators observe people or records under a defined study protocol rather than assigning a new treatment as the primary research design. The target population includes Adults. The description of eligibility is simplified for the demonstration, and any real version would require precise inclusion and exclusion criteria, site approvals, risk assessment and a scientifically justified recruitment strategy. The planned enrolment is 1100 and the achieved or currently recorded enrolment is 155 in this invented submission. These illustrative figures are not observed research results and should not be used for epidemiological inference. Research activities are represented through setting categories such as Clinic (outpatient), Secondary care hospital. The maDMP records data categories including Serology, Sociodemographic and primary outcome categories including Physicological or Clinical, Life impact. This structured metadata is useful for identifying related research, comparing study scope and noticing differences in data collection practices. It is not equivalent to access to clinical records, laboratory measurements or individual participant information. The plan focuses primarily on newly collected observations rather than reuse of external participant-level sources; this does not remove the need to document provenance and data quality. A real investigator would also describe missing-data management, audit trails, versioning, documentation and responsible stewardship at each participating institution. The completed form reports standards such as HL7 FHIR, SNOMED CT. Selecting these names means the researcher says they use or plan to use them; conformance cannot be established from a checkbox alone. The investigators report an intention to share participant-level data in the future, subject to consent, ethics, safeguards and access agreements. Data access questions must be considered separately from study discovery because consent language, retention periods, transfer limitations and data access committees can impose additional requirements. In this demonstration, the purpose of collecting the maDMP is to enable transparent searching for studies and potential collaborators, while preserving enough context to ask informed questions before any data-sharing negotiation. All people, identifiers, funders and organisations described here are fabricated for safe testing." ;
+    dct:alternative "MATERNITY-SAFE" ;
+    dct:isPartOf <https://example.org/comect-demo/project/mama-resp-research-consortium> ;
+    dct:spatial <https://example.org/comect-demo/country/GR>,
+        <https://example.org/comect-demo/country/IT> ;
+    dct:title "MATERNITY-SAFE respiratory infection in pregnancy cohort" ;
+    ex:actualEnrolment 155 ;
+    ex:centreType "Multi-centre" ;
+    ex:dataType <https://example.org/comect-demo/datatype/serology-immunology>,
+        <https://example.org/comect-demo/datatype/sociodemographic> ;
+    ex:ethnicityFocus <https://example.org/comect-demo/ethnicity/not-applicable> ;
+    ex:exclusionCriteria "Unable to consent or satisfy protocol-specific safety and eligibility criteria." ;
+    ex:exposure "Respiratory infection during pregnancy" ;
+    ex:fundedBy <https://example.org/comect-demo/funder/coastal-health-innovation-fund> ;
+    ex:hasDMP <https://example.org/comect-demo/dmp/SYN-0007> ;
+    ex:hasPrincipalInvestigator <https://example.org/comect-demo/researcher/SYN-0007> ;
+    ex:hasRecruitmentStatus <https://example.org/comect-demo/recruitment-status/recruiting> ;
+    ex:hasSharingConditions <https://example.org/comect-demo/sharing/SYN-0007> ;
+    ex:inclusionCriteria "Pregnant adults receiving antenatal care for respiratory infection." ;
+    ex:leadInstitution <https://example.org/comect-demo/organisation/mediterranean-maternal-health-collaborative> ;
+    ex:pathogenGroup <https://example.org/comect-demo/pathogen-group/viruses> ;
+    ex:plannedEnrolment 1100 ;
+    ex:primaryOutcome <https://example.org/comect-demo/outcome/life-impact>,
+        <https://example.org/comect-demo/outcome/physicological-or-clinical> ;
+    ex:recruitmentStatus "Recruiting" ;
+    ex:reportedCatalogue <https://example.org/comect-demo/catalogue/pathogens-portal> ;
+    ex:reportsUseOfStandard <https://example.org/comect-demo/standard/hl7-fhir>,
+        <https://example.org/comect-demo/standard/snomed-ct> ;
+    ex:standardUseReport <https://example.org/comect-demo/standard-report/SYN-0007/hl7-fhir>,
+        <https://example.org/comect-demo/standard-report/SYN-0007/snomed-ct> ;
+    ex:studyDesign "Observational" ;
+    ex:studyEndDate "2028-06-30"^^xsd:date ;
+    ex:studyFocus <https://example.org/comect-demo/focus/clinical-characterisation-and-management>,
+        <https://example.org/comect-demo/focus/epidemiological-studies> ;
+    ex:studySetting <https://example.org/comect-demo/setting/clinic-outpatient-care>,
+        <https://example.org/comect-demo/setting/secondary-care-hospital> ;
+    ex:studyStartDate "2026-06-01"^^xsd:date ;
+    ex:supportedByGrant <https://example.org/comect-demo/grant/syn-0007-grant-1> ;
+    ex:synthetic true ;
+    ex:takesPlaceIn <https://example.org/comect-demo/country/GR>,
+        <https://example.org/comect-demo/country/IT> ;
+    ex:targetAgeGroup <https://example.org/comect-demo/age-group/adults-18-and-older> ;
+    ex:vulnerablePopulation <https://example.org/comect-demo/vulnerable-group/pregnant-women> .
+
+<https://example.org/comect-demo/study/SYN-0008> a ex:Study ;
+    dct:abstract "A school-based intervention evaluation compares environmental and respiratory indicators before and after prevention measures. This is a wholly fictional interventional research example designed to illustrate how a completed machine-actionable data management plan can be discovered alongside other study descriptions. The fictional coordinating institution is Atlantic Community Prevention Lab. Its study countries are Ireland, United Kingdom; these locations indicate where the study takes place and do not automatically describe the geographical coverage of any future published dataset. The study is labelled recruiting at the time of the example. Dates refer to the study plan, not to trial registration or metadata publication. The central scientific question concerns ventilation and hygiene interventions in schools. The investigators compare intervention and routine-care pathways using a study protocol that specifies patient selection, follow-up and outcome measurement. The target population includes Children (1 year, Adolescent. The description of eligibility is simplified for the demonstration, and any real version would require precise inclusion and exclusion criteria, site approvals, risk assessment and a scientifically justified recruitment strategy. The planned enrolment is 4200 and the achieved or currently recorded enrolment is 1700 in this invented submission. These illustrative figures are not observed research results and should not be used for epidemiological inference. Research activities are represented through setting categories such as School, Community. The maDMP records data categories including Environmental, Sociodemographic and primary outcome categories including Physicological or Clinical, Resource use. This structured metadata is useful for identifying related research, comparing study scope and noticing differences in data collection practices. It is not equivalent to access to clinical records, laboratory measurements or individual participant information. The plan focuses primarily on newly collected observations rather than reuse of external participant-level sources; this does not remove the need to document provenance and data quality. A real investigator would also describe missing-data management, audit trails, versioning, documentation and responsible stewardship at each participating institution. The completed form reports standards such as LOINC, HL7 FHIR. Selecting these names means the researcher says they use or plan to use them; conformance cannot be established from a checkbox alone. The reported intention is that de-identified participant-level data are already shared in the fictional scenario, but access conditions still have to be reviewed and approval cannot be assumed. Data access questions must be considered separately from study discovery because consent language, retention periods, transfer limitations and data access committees can impose additional requirements. In this demonstration, the purpose of collecting the maDMP is to enable transparent searching for studies and potential collaborators, while preserving enough context to ask informed questions before any data-sharing negotiation. All people, identifiers, funders and organisations described here are fabricated for safe testing." ;
+    dct:alternative "SCHOOL-AIR" ;
+    dct:spatial <https://example.org/comect-demo/country/GB>,
+        <https://example.org/comect-demo/country/IE> ;
+    dct:title "SCHOOL-AIR school-based respiratory infection prevention evaluation" ;
+    ex:actualEnrolment 1700 ;
+    ex:centreType "Multi-centre" ;
+    ex:dataType <https://example.org/comect-demo/datatype/environmental>,
+        <https://example.org/comect-demo/datatype/sociodemographic> ;
+    ex:ethnicityFocus <https://example.org/comect-demo/ethnicity/not-applicable> ;
+    ex:exclusionCriteria "Unable to consent or satisfy protocol-specific safety and eligibility criteria." ;
+    ex:exposure "Ventilation and hygiene interventions in schools" ;
+    ex:fundedBy <https://example.org/comect-demo/funder/community-epidemic-preparedness-fund> ;
+    ex:hasDMP <https://example.org/comect-demo/dmp/SYN-0008> ;
+    ex:hasPrincipalInvestigator <https://example.org/comect-demo/researcher/SYN-0008> ;
+    ex:hasRecruitmentStatus <https://example.org/comect-demo/recruitment-status/recruiting> ;
+    ex:hasSelfReportedRegistration <https://example.org/comect-demo/study-registration/SYN-0008/1> ;
+    ex:hasSharingConditions <https://example.org/comect-demo/sharing/SYN-0008> ;
+    ex:inclusionCriteria "Students attending participating schools and their caregivers." ;
+    ex:leadInstitution <https://example.org/comect-demo/organisation/atlantic-community-prevention-lab> ;
+    ex:pathogenGroup <https://example.org/comect-demo/pathogen-group/viruses> ;
+    ex:plannedEnrolment 4200 ;
+    ex:primaryOutcome <https://example.org/comect-demo/outcome/physicological-or-clinical>,
+        <https://example.org/comect-demo/outcome/resource-use> ;
+    ex:recruitmentStatus "Recruiting" ;
+    ex:reportedCatalogue <https://example.org/comect-demo/catalogue/biostudies> ;
+    ex:reportsUseOfStandard <https://example.org/comect-demo/standard/hl7-fhir>,
+        <https://example.org/comect-demo/standard/loinc> ;
+    ex:standardUseReport <https://example.org/comect-demo/standard-report/SYN-0008/hl7-fhir>,
+        <https://example.org/comect-demo/standard-report/SYN-0008/loinc> ;
+    ex:studyDesign "Interventional" ;
+    ex:studyEndDate "2027-07-31"^^xsd:date ;
+    ex:studyFocus <https://example.org/comect-demo/focus/infection-prevention-and-control>,
+        <https://example.org/comect-demo/focus/policies-for-public-health-disease-control-community-resilience> ;
+    ex:studySetting <https://example.org/comect-demo/setting/community>,
+        <https://example.org/comect-demo/setting/school> ;
+    ex:studyStartDate "2025-09-01"^^xsd:date ;
+    ex:supportedByGrant <https://example.org/comect-demo/grant/syn-0008-grant-1> ;
+    ex:synthetic true ;
+    ex:takesPlaceIn <https://example.org/comect-demo/country/GB>,
+        <https://example.org/comect-demo/country/IE> ;
+    ex:targetAgeGroup <https://example.org/comect-demo/age-group/adolescent-13-years-to-17-years>,
+        <https://example.org/comect-demo/age-group/children-1-year-to-12-years> .
+
+<https://example.org/comect-demo/study/SYN-0009> a ex:Study ;
+    dct:abstract "A completed follow-up cohort examines prolonged symptoms, immune markers and care experiences among adults after infection. This is a wholly fictional observational research example designed to illustrate how a completed machine-actionable data management plan can be discovered alongside other study descriptions. The fictional coordinating institution is Alpine Translational Recovery Centre. Its study countries are Germany, Austria; these locations indicate where the study takes place and do not automatically describe the geographical coverage of any future published dataset. The study is labelled completed at the time of the example. Dates refer to the study plan, not to trial registration or metadata publication. The central scientific question concerns previous symptomatic viral infection. The investigators observe people or records under a defined study protocol rather than assigning a new treatment as the primary research design. The target population includes Adults, Older adults. The description of eligibility is simplified for the demonstration, and any real version would require precise inclusion and exclusion criteria, site approvals, risk assessment and a scientifically justified recruitment strategy. The planned enrolment is 1400 and the achieved or currently recorded enrolment is 1350 in this invented submission. These illustrative figures are not observed research results and should not be used for epidemiological inference. Research activities are represented through setting categories such as Clinic (outpatient), Community. The maDMP records data categories including Serology, Samples and primary outcome categories including Life impact, Physicological or Clinical. This structured metadata is useful for identifying related research, comparing study scope and noticing differences in data collection practices. It is not equivalent to access to clinical records, laboratory measurements or individual participant information. Selected existing records will also be reused, so source descriptions, linkage procedures, provenance and responsible governance would need to be documented before any secondary analysis. A real investigator would also describe missing-data management, audit trails, versioning, documentation and responsible stewardship at each participating institution. The completed form reports standards such as SNOMED CT, LOINC. Selecting these names means the researcher says they use or plan to use them; conformance cannot be established from a checkbox alone. The reported intention is that de-identified participant-level data are already shared in the fictional scenario, but access conditions still have to be reviewed and approval cannot be assumed. Data access questions must be considered separately from study discovery because consent language, retention periods, transfer limitations and data access committees can impose additional requirements. In this demonstration, the purpose of collecting the maDMP is to enable transparent searching for studies and potential collaborators, while preserving enough context to ask informed questions before any data-sharing negotiation. All people, identifiers, funders and organisations described here are fabricated for safe testing." ;
+    dct:alternative "LONG-IMMUNE" ;
+    dct:isPartOf <https://example.org/comect-demo/project/resp-net-research-consortium> ;
+    dct:spatial <https://example.org/comect-demo/country/AT>,
+        <https://example.org/comect-demo/country/DE> ;
+    dct:title "LONG-IMMUNE post-viral symptom and immune marker follow-up" ;
+    ex:actualEnrolment 1350 ;
+    ex:centreType "Multi-centre" ;
+    ex:dataType <https://example.org/comect-demo/datatype/samples>,
+        <https://example.org/comect-demo/datatype/serology-immunology> ;
+    ex:ethnicityFocus <https://example.org/comect-demo/ethnicity/not-applicable> ;
+    ex:exclusionCriteria "Unable to consent or satisfy protocol-specific safety and eligibility criteria." ;
+    ex:exposure "Previous symptomatic viral infection" ;
+    ex:fundedBy <https://example.org/comect-demo/funder/aster-research-council> ;
+    ex:hasDMP <https://example.org/comect-demo/dmp/SYN-0009> ;
+    ex:hasPrincipalInvestigator <https://example.org/comect-demo/researcher/SYN-0009> ;
+    ex:hasRecruitmentStatus <https://example.org/comect-demo/recruitment-status/completed-trial-ended-as-planned> ;
+    ex:hasSelfReportedRegistration <https://example.org/comect-demo/study-registration/SYN-0009/1> ;
+    ex:hasSharingConditions <https://example.org/comect-demo/sharing/SYN-0009> ;
+    ex:inclusionCriteria "Previously enrolled adults with a documented symptomatic infection." ;
+    ex:leadInstitution <https://example.org/comect-demo/organisation/alpine-translational-recovery-centre> ;
+    ex:pathogenGroup <https://example.org/comect-demo/pathogen-group/viruses> ;
+    ex:plannedEnrolment 1400 ;
+    ex:primaryOutcome <https://example.org/comect-demo/outcome/life-impact>,
+        <https://example.org/comect-demo/outcome/physicological-or-clinical> ;
+    ex:recruitmentStatus "Completed - trial ended as planned" ;
+    ex:reportedCatalogue <https://example.org/comect-demo/catalogue/biostudies> ;
+    ex:reportsUseOfStandard <https://example.org/comect-demo/standard/loinc>,
+        <https://example.org/comect-demo/standard/snomed-ct> ;
+    ex:standardUseReport <https://example.org/comect-demo/standard-report/SYN-0009/loinc>,
+        <https://example.org/comect-demo/standard-report/SYN-0009/snomed-ct> ;
+    ex:studyDesign "Observational" ;
+    ex:studyEndDate "2025-12-31"^^xsd:date ;
+    ex:studyFocus <https://example.org/comect-demo/focus/clinical-characterisation-and-management>,
+        <https://example.org/comect-demo/focus/epidemiological-studies> ;
+    ex:studySetting <https://example.org/comect-demo/setting/clinic-outpatient-care>,
+        <https://example.org/comect-demo/setting/community> ;
+    ex:studyStartDate "2022-10-01"^^xsd:date ;
+    ex:supportedByGrant <https://example.org/comect-demo/grant/syn-0009-grant-1> ;
+    ex:synthetic true ;
+    ex:takesPlaceIn <https://example.org/comect-demo/country/AT>,
+        <https://example.org/comect-demo/country/DE> ;
+    ex:targetAgeGroup <https://example.org/comect-demo/age-group/adults-18-and-older>,
+        <https://example.org/comect-demo/age-group/older-adults-65-and-older> .
+
+<https://example.org/comect-demo/study/SYN-0010> a ex:Study ;
+    dct:abstract "A diagnostic intervention compares clinical pathways after rapid bacterial testing and records test performance and patient outcomes. This is a wholly fictional interventional research example designed to illustrate how a completed machine-actionable data management plan can be discovered alongside other study descriptions. The fictional coordinating institution is Rhone Diagnostic Innovation Group. Its study countries are France, Belgium; these locations indicate where the study takes place and do not automatically describe the geographical coverage of any future published dataset. The study is labelled recruiting at the time of the example. Dates refer to the study plan, not to trial registration or metadata publication. The central scientific question concerns rapid bacterial diagnostic assay. The investigators compare intervention and routine-care pathways using a study protocol that specifies patient selection, follow-up and outcome measurement. The target population includes Adults. The description of eligibility is simplified for the demonstration, and any real version would require precise inclusion and exclusion criteria, site approvals, risk assessment and a scientifically justified recruitment strategy. The planned enrolment is 800 and the achieved or currently recorded enrolment is 195 in this invented submission. These illustrative figures are not observed research results and should not be used for epidemiological inference. Research activities are represented through setting categories such as Secondary care hospital, Clinic (outpatient). The maDMP records data categories including Samples, Pathogen Genomics and primary outcome categories including Resource use, Physicological or Clinical. This structured metadata is useful for identifying related research, comparing study scope and noticing differences in data collection practices. It is not equivalent to access to clinical records, laboratory measurements or individual participant information. The plan focuses primarily on newly collected observations rather than reuse of external participant-level sources; this does not remove the need to document provenance and data quality. A real investigator would also describe missing-data management, audit trails, versioning, documentation and responsible stewardship at each participating institution. The completed form reports standards such as CDISC CDASH/SDTM, LOINC. Selecting these names means the researcher says they use or plan to use them; conformance cannot be established from a checkbox alone. Participant-level sharing is not currently agreed or is restricted in this fictional scenario; discoverable metadata should not be interpreted as permission to obtain participant data. Data access questions must be considered separately from study discovery because consent language, retention periods, transfer limitations and data access committees can impose additional requirements. In this demonstration, the purpose of collecting the maDMP is to enable transparent searching for studies and potential collaborators, while preserving enough context to ask informed questions before any data-sharing negotiation. All people, identifiers, funders and organisations described here are fabricated for safe testing." ;
+    dct:alternative "RAPID-DIAG" ;
+    dct:spatial <https://example.org/comect-demo/country/BE>,
+        <https://example.org/comect-demo/country/FR> ;
+    dct:title "RAPID-DIAG evaluation of rapid bacterial diagnostics" ;
+    ex:actualEnrolment 195 ;
+    ex:centreType "Multi-centre" ;
+    ex:dataType <https://example.org/comect-demo/datatype/pathogen-genomics>,
+        <https://example.org/comect-demo/datatype/samples> ;
+    ex:ethnicityFocus <https://example.org/comect-demo/ethnicity/not-applicable> ;
+    ex:exclusionCriteria "Unable to consent or satisfy protocol-specific safety and eligibility criteria." ;
+    ex:exposure "Rapid bacterial diagnostic assay" ;
+    ex:fundedBy <https://example.org/comect-demo/funder/community-epidemic-preparedness-fund> ;
+    ex:hasDMP <https://example.org/comect-demo/dmp/SYN-0010> ;
+    ex:hasPrincipalInvestigator <https://example.org/comect-demo/researcher/SYN-0010> ;
+    ex:hasRecruitmentStatus <https://example.org/comect-demo/recruitment-status/recruiting> ;
+    ex:hasSelfReportedRegistration <https://example.org/comect-demo/study-registration/SYN-0010/1> ;
+    ex:hasSharingConditions <https://example.org/comect-demo/sharing/SYN-0010> ;
+    ex:inclusionCriteria "Hospital and clinic patients receiving diagnostic testing for suspected bacterial infection." ;
+    ex:leadInstitution <https://example.org/comect-demo/organisation/rhone-diagnostic-innovation-group> ;
+    ex:pathogenGroup <https://example.org/comect-demo/pathogen-group/bacteria> ;
+    ex:plannedEnrolment 800 ;
+    ex:primaryOutcome <https://example.org/comect-demo/outcome/physicological-or-clinical>,
+        <https://example.org/comect-demo/outcome/resource-use> ;
+    ex:recruitmentStatus "Recruiting" ;
+    ex:reportedCatalogue <https://example.org/comect-demo/catalogue/not-planning-to-upload-to-any-catalogs> ;
+    ex:reportsUseOfStandard <https://example.org/comect-demo/standard/cdisc-cdash-sdtm>,
+        <https://example.org/comect-demo/standard/loinc> ;
+    ex:standardUseReport <https://example.org/comect-demo/standard-report/SYN-0010/cdisc-cdash-sdtm>,
+        <https://example.org/comect-demo/standard-report/SYN-0010/loinc> ;
+    ex:studyBacterium <https://example.org/comect-demo/bacterium/escherichia-coli> ;
+    ex:studyDesign "Interventional" ;
+    ex:studyEndDate "2027-11-30"^^xsd:date ;
+    ex:studyFocus <https://example.org/comect-demo/focus/clinical-characterisation-and-management>,
+        <https://example.org/comect-demo/focus/pathogen-natural-history-transmission-and-diagnostics> ;
+    ex:studySetting <https://example.org/comect-demo/setting/clinic-outpatient-care>,
+        <https://example.org/comect-demo/setting/secondary-care-hospital> ;
+    ex:studyStartDate "2026-04-01"^^xsd:date ;
+    ex:supportedByGrant <https://example.org/comect-demo/grant/syn-0010-grant-1> ;
+    ex:synthetic true ;
+    ex:takesPlaceIn <https://example.org/comect-demo/country/BE>,
+        <https://example.org/comect-demo/country/FR> ;
+    ex:targetAgeGroup <https://example.org/comect-demo/age-group/adults-18-and-older> ;
+    ex:transmissionMode <https://example.org/comect-demo/transmission/direct-contact-body-fluids> .
+
+<https://example.org/comect-demo/transmission/fecal-oral-water-borne> a skos:Concept ;
+    skos:prefLabel "Fecal-oral/water borne" .
+
+<https://example.org/comect-demo/vulnerable-group/pregnant-women> a skos:Concept ;
+    skos:prefLabel "Pregnant Women" .
+
+<https://example.org/comect-demo/age-group/adolescent-13-years-to-17-years> a skos:Concept ;
+    skos:prefLabel "Adolescent (13 years to 17 years)" .
+
+<https://example.org/comect-demo/age-group/children-1-year-to-12-years> a skos:Concept ;
+    skos:prefLabel "Children (1 year to 12 years)" .
+
+<https://example.org/comect-demo/bacterium/escherichia-coli> a skos:Concept ;
+    skos:prefLabel "Escherichia coli" .
+
+<https://example.org/comect-demo/catalogue/biostudies> a skos:Concept ;
+    skos:prefLabel "BioStudies" .
+
+<https://example.org/comect-demo/catalogue/not-planning-to-upload-to-any-catalogs> a skos:Concept ;
+    skos:prefLabel "Not planning to upload to any catalogs" .
+
+<https://example.org/comect-demo/country/AT> a dct:Location ;
+    skos:notation "AT" ;
+    skos:prefLabel "Austria" .
+
+<https://example.org/comect-demo/country/DK> a dct:Location ;
+    skos:notation "DK" ;
+    skos:prefLabel "Denmark" .
+
+<https://example.org/comect-demo/country/ES> a dct:Location ;
+    skos:notation "ES" ;
+    skos:prefLabel "Spain" .
+
+<https://example.org/comect-demo/country/FI> a dct:Location ;
+    skos:notation "FI" ;
+    skos:prefLabel "Finland" .
+
+<https://example.org/comect-demo/country/GB> a dct:Location ;
+    skos:notation "GB" ;
+    skos:prefLabel "United Kingdom" .
+
+<https://example.org/comect-demo/country/GR> a dct:Location ;
+    skos:notation "GR" ;
+    skos:prefLabel "Greece" .
+
+<https://example.org/comect-demo/country/IE> a dct:Location ;
+    skos:notation "IE" ;
+    skos:prefLabel "Ireland" .
+
+<https://example.org/comect-demo/country/IT> a dct:Location ;
+    skos:notation "IT" ;
+    skos:prefLabel "Italy" .
+
+<https://example.org/comect-demo/country/KE> a dct:Location ;
+    skos:notation "KE" ;
+    skos:prefLabel "Kenya" .
+
+<https://example.org/comect-demo/country/NO> a dct:Location ;
+    skos:notation "NO" ;
+    skos:prefLabel "Norway" .
+
+<https://example.org/comect-demo/country/PT> a dct:Location ;
+    skos:notation "PT" ;
+    skos:prefLabel "Portugal" .
+
+<https://example.org/comect-demo/country/UG> a dct:Location ;
+    skos:notation "UG" ;
+    skos:prefLabel "Uganda" .
+
+<https://example.org/comect-demo/datatype/environmental> a skos:Concept ;
+    skos:prefLabel "Environmental" .
+
+<https://example.org/comect-demo/datatype/pathogen-genomics> a skos:Concept ;
+    skos:prefLabel "Pathogen Genomics" .
+
+<https://example.org/comect-demo/focus/infection-prevention-and-control> a skos:Concept ;
+    skos:prefLabel "Infection prevention and control" .
+
+<https://example.org/comect-demo/focus/pathogen-natural-history-transmission-and-diagnostics> a skos:Concept ;
+    skos:prefLabel "Pathogen: natural history, transmission and diagnostics" .
+
+<https://example.org/comect-demo/focus/policies-for-public-health-disease-control-community-resilience> a skos:Concept ;
+    skos:prefLabel "Policies for public health, disease control & community resilience" .
+
+<https://example.org/comect-demo/funder/equator-health-foundation> a foaf:Organization ;
+    dct:identifier "https://funders.example/equator-health-foundation" ;
+    foaf:name "Equator Health Foundation" .
+
+<https://example.org/comect-demo/outcome/adverse-event> a skos:Concept ;
+    skos:prefLabel "Adverse event" .
+
+<https://example.org/comect-demo/project/north-care-research-consortium> a ex:ConsortiumProject ;
+    dct:alternative "NORTH-CARE" ;
+    skos:prefLabel "NORTH-CARE research consortium" .
+
+<https://example.org/comect-demo/project/resp-net-research-consortium> a ex:ConsortiumProject ;
+    dct:alternative "RESP-NET" ;
+    skos:prefLabel "RESP-NET research consortium" .
+
+<https://example.org/comect-demo/researcher/SYN-0001> a foaf:Person ;
+    foaf:name "Elena Varga" ;
+    ex:demoEmail "researcher01@research.example" ;
+    ex:principalInvestigatorName "Elena Varga" .
+
+<https://example.org/comect-demo/researcher/SYN-0002> a foaf:Person ;
+    foaf:name "Mikael Lind" ;
+    ex:demoEmail "researcher02@research.example" ;
+    ex:principalInvestigatorName "Mikael Lind" .
+
+<https://example.org/comect-demo/researcher/SYN-0003> a foaf:Person ;
+    foaf:name "Amara Okoye" ;
+    ex:demoEmail "researcher03@research.example" ;
+    ex:principalInvestigatorName "Amara Okoye" .
+
+<https://example.org/comect-demo/researcher/SYN-0004> a foaf:Person ;
+    foaf:name "Lucia Almeida" ;
+    ex:demoEmail "researcher04@research.example" ;
+    ex:principalInvestigatorName "Lucia Almeida" .
+
+<https://example.org/comect-demo/researcher/SYN-0005> a foaf:Person ;
+    foaf:name "Asha Njeri" ;
+    ex:demoEmail "researcher05@research.example" ;
+    ex:principalInvestigatorName "Asha Njeri" .
+
+<https://example.org/comect-demo/researcher/SYN-0006> a foaf:Person ;
+    foaf:name "Signe Holm" ;
+    ex:demoEmail "researcher06@research.example" ;
+    ex:principalInvestigatorName "Signe Holm" .
+
+<https://example.org/comect-demo/researcher/SYN-0007> a foaf:Person ;
+    foaf:name "Sara Bianchi" ;
+    ex:demoEmail "researcher07@research.example" ;
+    ex:principalInvestigatorName "Sara Bianchi" .
+
+<https://example.org/comect-demo/researcher/SYN-0008> a foaf:Person ;
+    foaf:name "Niamh Walsh" ;
+    ex:demoEmail "researcher08@research.example" ;
+    ex:principalInvestigatorName "Niamh Walsh" .
+
+<https://example.org/comect-demo/researcher/SYN-0009> a foaf:Person ;
+    foaf:name "Jonas Richter" ;
+    ex:demoEmail "researcher09@research.example" ;
+    ex:principalInvestigatorName "Jonas Richter" .
+
+<https://example.org/comect-demo/researcher/SYN-0010> a foaf:Person ;
+    foaf:name "Camille Moreau" ;
+    ex:demoEmail "researcher10@research.example" ;
+    ex:principalInvestigatorName "Camille Moreau" .
+
+<https://example.org/comect-demo/setting/tertiary-acute-care-hospital> a skos:Concept ;
+    skos:prefLabel "Tertiary (acute) care hospital" .
+
+<https://example.org/comect-demo/catalogue/pathogens-portal> a skos:Concept ;
+    skos:prefLabel "Pathogens Portal" .
+
+<https://example.org/comect-demo/outcome/death> a skos:Concept ;
+    skos:prefLabel "Death" .
+
+<https://example.org/comect-demo/outcome/life-impact> a skos:Concept ;
+    skos:prefLabel "Life impact" .
+
+<https://example.org/comect-demo/setting/clinic-outpatient-care> a skos:Concept ;
+    skos:prefLabel "Clinic (outpatient) care" .
+
+<https://example.org/comect-demo/transmission/direct-contact-body-fluids> a skos:Concept ;
+    skos:prefLabel "Direct contact/body fluids" .
+
+<https://example.org/comect-demo/age-group/older-adults-65-and-older> a skos:Concept ;
+    skos:prefLabel "Older adults >(65 and older)" .
+
+<https://example.org/comect-demo/audience/academic-researchers> a skos:Concept ;
+    skos:prefLabel "Academic Researchers" .
+
+<https://example.org/comect-demo/country/BE> a dct:Location ;
+    skos:notation "BE" ;
+    skos:prefLabel "Belgium" .
+
+<https://example.org/comect-demo/country/DE> a dct:Location ;
+    skos:notation "DE" ;
+    skos:prefLabel "Germany" .
+
+<https://example.org/comect-demo/country/FR> a dct:Location ;
+    skos:notation "FR" ;
+    skos:prefLabel "France" .
+
+<https://example.org/comect-demo/country/NL> a dct:Location ;
+    skos:notation "NL" ;
+    skos:prefLabel "Netherlands" .
+
+<https://example.org/comect-demo/country/SE> a dct:Location ;
+    skos:notation "SE" ;
+    skos:prefLabel "Sweden" .
+
+<https://example.org/comect-demo/datatype/samples> a skos:Concept ;
+    skos:prefLabel "Samples" .
+
+<https://example.org/comect-demo/funder/boreal-science-trust> a foaf:Organization ;
+    dct:identifier "https://funders.example/boreal-science-trust" ;
+    foaf:name "Boreal Science Trust" .
+
+<https://example.org/comect-demo/funder/coastal-health-innovation-fund> a foaf:Organization ;
+    dct:identifier "https://funders.example/coastal-health-innovation-fund" ;
+    foaf:name "Coastal Health Innovation Fund" .
+
+<https://example.org/comect-demo/funder/community-epidemic-preparedness-fund> a foaf:Organization ;
+    dct:identifier "https://funders.example/community-epidemic-preparedness-fund" ;
+    foaf:name "Community Epidemic Preparedness Fund" .
+
+<https://example.org/comect-demo/pathogen-group/bacteria> a skos:Concept ;
+    skos:prefLabel "Bacteria" .
+
+<https://example.org/comect-demo/setting/primary-care> a skos:Concept ;
+    skos:prefLabel "Primary care" .
+
+<https://example.org/comect-demo/setting/secondary-care-hospital> a skos:Concept ;
+    skos:prefLabel "Secondary care hospital" .
+
+<https://example.org/comect-demo/standard/meddra-medications> a skos:Concept ;
+    skos:prefLabel "MedDRA (medications)" .
+
+<https://example.org/comect-demo/standard/omop-common-data-model-omop-cdm> a skos:Concept ;
+    skos:prefLabel "OMOP Common Data Model (OMOP CDM)" .
+
+<https://example.org/comect-demo/datatype/serology-immunology> a skos:Concept ;
+    skos:prefLabel "Serology / Immunology" .
+
+<https://example.org/comect-demo/focus/clinical-characterisation-and-management> a skos:Concept ;
+    skos:prefLabel "Clinical characterisation and management" .
+
+<https://example.org/comect-demo/outcome/resource-use> a skos:Concept ;
+    skos:prefLabel "Resource use" .
+
+<https://example.org/comect-demo/permission-vocabulary/the-global-alliance-for-genomics-and-health-ga4gh-data-use-ontology-duo> a skos:Concept ;
+    skos:prefLabel "The Global Alliance for Genomics and Health (GA4GH) Data Use Ontology (DUO)" .
+
+<https://example.org/comect-demo/setting/community> a skos:Concept ;
+    skos:prefLabel "Community" .
+
+<https://example.org/comect-demo/datatype/sociodemographic> a skos:Concept ;
+    skos:prefLabel "Sociodemographic" .
+
+<https://example.org/comect-demo/focus/epidemiological-studies> a skos:Concept ;
+    skos:prefLabel "Epidemiological studies" .
+
+<https://example.org/comect-demo/pathogen-group/viruses> a skos:Concept ;
+    skos:prefLabel "Viruses" .
+
+<https://example.org/comect-demo/standard/cdisc-cdash-sdtm> a skos:Concept ;
+    skos:prefLabel "CDISC CDASH/SDTM" .
+
+<https://example.org/comect-demo/standard/hl7-fhir> a skos:Concept ;
+    skos:prefLabel "HL7 FHIR" .
+
+<https://example.org/comect-demo/standard/icd-10-or-icd-11> a skos:Concept ;
+    skos:prefLabel "ICD-10 or ICD-11" .
+
+<https://example.org/comect-demo/outcome/physicological-or-clinical> a skos:Concept ;
+    skos:prefLabel "Physicological or Clinical" .
+
+<https://example.org/comect-demo/recruitment-status/recruiting> a skos:Concept ;
+    skos:prefLabel "Recruiting" .
+
+<https://example.org/comect-demo/funder/aster-research-council> a foaf:Organization ;
+    dct:identifier "https://funders.example/aster-research-council" ;
+    foaf:name "Aster Research Council" .
+
+<https://example.org/comect-demo/standard/snomed-ct> a skos:Concept ;
+    skos:prefLabel "SNOMED CT" .
+
+<https://example.org/comect-demo/age-group/adults-18-and-older> a skos:Concept ;
+    skos:prefLabel "Adults (18 and older)" .
+
+<https://example.org/comect-demo/ethnicity/not-applicable> a skos:Concept ;
+    skos:prefLabel "Not applicable" .
+
+<https://example.org/comect-demo/form/field-inventory> a ex:FormDefinition ;
+    dct:title "CoMeCT demonstration field inventory" .
+
+<https://example.org/comect-demo/standard/loinc> a skos:Concept ;
+    skos:prefLabel "LOINC" .
+
