@@ -510,5 +510,5 @@ with methods:
     - **Map colours:** darker shades mean more studies or higher enrolment, according to the selected measure. Grey countries have no value in the current view.
     """)
 
-st.markdown('<div class="footer">CoMeCT Research Observatory · Aiman</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">CoMeCT Research Observatory. Contact aymen.omg@gmail.com</div>', unsafe_allow_html=True)
 
